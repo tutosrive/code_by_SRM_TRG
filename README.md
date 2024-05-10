@@ -8,7 +8,7 @@
 
 <section>
     <div>
-        <div style="width:200px; display: flex; margin-bottom: 12px; margin-left: 5%">
+        <div style="width:200px; display: flex; margin-bottom: 23px; margin-left: auto; margin-right:auto;">
             <image width="200" src="assets/python_ico.svg">
             <image width="200" src="assets/java_ico.svg">
         </div>
