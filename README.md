@@ -8,7 +8,7 @@
 
 <section>
     <div>
-        <div style="width:200px; display: flex; margin-bottom: 23px; margin-left: auto; margin-right:auto;">
+        <div style="width:200px; display: flex; margin-bottom: 23px;"
             <image width="200" src="assets/python_ico.svg">
             <image width="200" src="assets/java_ico.svg">
         </div>
@@ -52,6 +52,9 @@
            <li>
                 <p>Loops (Ciclos - Bucles): </p>
                 <ul>
+                    <li>
+                        Imprimir desde número 2 entero, hasta 0 en paso 2 (<a href="code/python/Loops/for_default.py">Desde n hasta 0 en paso 2</a>)
+                    </li>
                 </ul>
            </li>
         </ul>
