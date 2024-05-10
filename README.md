@@ -31,7 +31,7 @@
                     <li>
                         Sumar los primeros <i>n</i> números naturales (<a href="code/python/functions/sum_n_first_int_srm.py">Suma de n naturales</a>).
                     </li>
-                    <li>
+                    <li> 
                         Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="code/python/functions/fibonacci_srm.py">Secuencia FIbonacci</a>).
                     </li>
                 </ul>
