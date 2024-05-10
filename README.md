@@ -9,8 +9,8 @@
 <section>
     <div>
         <div style="width:200px; display: flex; margin-bottom: 12px; margin-left: 5%">
-            <image src="assets/python_ico.svg">
-            <image src="assets/java_ico.svg">
+            <image width="200" src="assets/python_ico.svg">
+            <image width="200" src="assets/java_ico.svg">
         </div>
     </div>
     <p>
