@@ -95,6 +95,35 @@
            <li>
                 <p>Loops (Ciclos - Bucles): </p>
                 <ul>
+                    <li>
+                        Verificar si un único número es primo o no (<a href="code/java/loops/one_numberCousin.java">Verificar si un número es primo o no</a>)
+                    </li>
+                    <li>
+                        Buscar los números primos en un rango definido [1, 100] (<a href="code/java/loops/multiple_primeNumbers.java">Números primos en rango [1, 100]</a>)
+                    </li>
+                    <li>
+                        Buscar los primeros 100 números primos sin tener un rango definido (<a href="code/java/loops/first_100PrimeNumbers.java">Encontrar primeros 100 primos</a>)
+                    </li>
+                </ul>
+           </li>
+           <li>
+                <p>java.util (utilidades de Java): </p>
+                <ul>
+                    <li>Scanner (java.util.Scanner)</li>
+                    <ol>
+                        <li>
+                            Lectura de datos por teclado en JAVA con (Scanner) (<a href="code/java/java_util/java_Scanner1.java">Lectura de datos por teclado 1</a>)
+                        </li>
+                        <li>
+                            Lectura de datos por teclado en JAVA con (Scanner) (<a href="code/java/java_util/java_Scanner2.java">Lectura de datos por teclado 2</a>)
+                        </li>
+                    </ol>
+                    <li>Math (java.util.Math)</li>
+                    <ol>
+                        <li>
+                            Operaciones matemáticas con Math (<a href="code/java/java_util/java_Math1.java">Operaciones matemáticas con Math</a>)
+                        </li>
+                    </ol>
                 </ul>
            </li>
         </ul>
