@@ -115,13 +115,13 @@
                             Lectura de datos por teclado en JAVA con (Scanner) (<a href="code/java/java_util/java_Scanner1.java">Lectura de datos por teclado 1</a>)
                         </li>
                         <li>
-                            Lectura de datos por teclado en JAVA con (Scanner) (<a href="code/java/java_util/java_Scanner2.java">Lectura de datos por teclado 2</a>)
+                            Lectura de datos por teclado en JAVA con (Scanner) (<a href="code/java/java_util/java_Scanner2.java">Coming Soon</a>)
                         </li>
                     </ol>
                     <li>Math (java.util.Math)</li>
                     <ol>
                         <li>
-                            Operaciones matemáticas con Math (<a href="code/java/java_util/java_Math1.java">Operaciones matemáticas con Math</a>)
+                            Operaciones matemáticas con Math (<a href="code/java/java_util/java_Math1.java">Coming Soon</a>)
                         </li>
                     </ol>
                 </ul>
