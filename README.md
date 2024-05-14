@@ -75,7 +75,7 @@
                         Sumar los primeros <i>n</i> números naturales (<a href="code/java/functions/sum_n_naturals.java">Suma de n naturales</a>).
                     </li>
                     <li>
-                        Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="code/python/functions/fibonacci_srm.py">Secuencia FIbonacci</a>).
+                        Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="code/python/functions/">Coming Soon</a>).
                     </li>
                 </ul>
            </li>
