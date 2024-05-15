@@ -135,3 +135,5 @@
 ### Acerca de mí
 
  Soy esudiante de "Ingeniería de Sistemas y Computación (Software)" de la Universidad de Caldas, me gusta el hecho de sentarme a codificar y realizar posibles soluciones a problemas matemáticos, lógicos, e.t.c.
+
+ El propósito de este repositorio es compartir con la comunidad "Open Source" código que pueda ser útil o relevante para cada quien además de aprender nuevos temas de este mundo (code), una cosa es cierta y es que mi lógica no será igual a la de ninguna otra persona, por tanto, los códigos aquí mostrados están basados en mi experiencia neta y "Autodidacta".
