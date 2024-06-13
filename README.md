@@ -69,7 +69,7 @@
     <div>
         <ul>
            <li>
-                <p>Funciones:</p>
+                <strong>Funciones:</strong>
                 <ul>
                     <li>
                         Sumar los primeros <i>n</i> números naturales (<a href="code/java/functions/sum_n_naturals.java">Suma de n naturales</a>).
@@ -80,7 +80,7 @@
                 </ul>
            </li>
            <li>
-                <p>Condicionales: </p>
+                <strong>Condicionales: </strong>
                 <ul>
                     <li>
                         Verificar si una persona es mayor o menor de edad (<a href="code/java/conditionals/adult_srm.java">Verificar si sos mayor o menor de edad</a>)
@@ -88,12 +88,7 @@
                 </ul>
            </li>
            <li>
-            <p>Clases (OOP):</p>
-                <ul>
-                </ul>
-           </li>
-           <li>
-                <p>Loops (Ciclos - Bucles): </p>
+                <strong>Loops (Ciclos - Bucles): </strong>
                 <ul>
                     <li>
                         Verificar si un único número es primo o no (<a href="code/java/loops/one_numberCousin.java">Verificar si un número es primo o no</a>)
@@ -107,7 +102,7 @@
                 </ul>
            </li>
            <li>
-                <p>java.util (utilidades de Java): </p>
+                <strong>java.util (utilidades de Java): </strong>
                 <ul>
                     <li>Scanner (java.util.Scanner)</li>
                     <ol>
@@ -126,6 +121,48 @@
                     </ol>
                 </ul>
            </li>
+           <li>
+                <strong>Arrays (Vectores)</strong>:
+                <ul>
+                    <li>
+                        <strong>Arreglos Unidimensionales</strong>: 
+                    </li>
+                    <ul>
+                        <li>
+                        ¿Qué es un arreglo (Array)? (<a href="code/java/arrays/Readme.md">What is?</a>)
+                        </li>
+                        <li>
+                            <p>Llenar un arreglo (unidimensional) con valores (int) (<a href="code/java/arrays/vector/fillArray.java">Fill Array (Vector)</a>)</p>
+                        </li>
+                        <li>
+                            <p>Obtener valores de un arreglo (int) (<a href="code/java/arrays/vector/getElementsArray.java">Get Element (Vector)</a>)</p>
+                        </li>
+                        <li>
+                            <p>Sumar los elementos (en las mismas posiciones) de dos (2) arreglos (int) (<a href="code/java/arrays/vector/sumArray.java">Sum 2 arrays (Vector)</a>)</p>
+                        </li>
+                    </ul>
+                    <li>
+                        <strong>Matriz 2D (Array 2D, Matriz):</strong>
+                        <ul>
+                            <li>
+                                ¿Qué es un Matriz 2D? (<a href="code/java/arrays/Matrix/Readme.md">What is?</a>)
+                            </li>
+                            <li>
+                                <p>Contarcuántas veces está el número (1) en una matriz (int) (<a href="code/java/arrays/matrix/countElementInMatrix.java">Count Element (Matriz 2D)</a>)</p>
+                            </li>
+                            <li>
+                                <p>Ordenar Matriz 2D en diferente orden (Ascendente - Descendente) (int) (<a href="code/java/arrays/matrix/order_matrix.java">Order Matriz 2D (Vector)</a>)</p>
+                            </li>
+                        </ul>
+                    </li>
+                    </ul>
+                </ul>
+           </li>
+           <li>
+            <strong>Clases (OOP): coming Soon</strong>
+                <ul>
+                </ul>
+           </li>
         </ul>
     </div>
 </article>
@@ -134,6 +171,6 @@
 
 ### Acerca de mí
 
- Soy esudiante de "Ingeniería de Sistemas y Computación (Software)" de la Universidad de Caldas, me gusta el hecho de sentarme a codificar y realizar posibles soluciones a problemas matemáticos, lógicos, e.t.c.
+Soy esudiante de "Ingeniería de Sistemas y Computación (Software)" de la Universidad de Caldas, me gusta el hecho de sentarme a codificar y realizar posibles soluciones a problemas matemáticos, lógicos, e.t.c.
 
- El propósito de este repositorio es compartir con la comunidad "Open Source" código que pueda ser útil o relevante para cada quien además de aprender nuevos temas de este mundo (code), una cosa es cierta y es que mi lógica no será igual a la de ninguna otra persona, por tanto, los códigos aquí mostrados están basados en mi experiencia neta y "Autodidacta".
+El propósito de este repositorio es compartir con la comunidad "Open Source" código que pueda ser útil o relevante para cada quien además de aprender nuevos temas de este mundo (code), una cosa es cierta y es que mi lógica no será igual a la de ninguna otra persona, por tanto, los códigos aquí mostrados están basados en mi experiencia neta y "Autodidacta".
