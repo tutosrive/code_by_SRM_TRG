@@ -145,7 +145,7 @@
                         <strong>Matriz 2D (Array 2D, Matriz):</strong>
                         <ul>
                             <li>
-                                ¿Qué es un Matriz 2D? (<a href="code/java/arrays/Matrix/Readme.md">What is?</a>)
+                                ¿Qué es un Matriz 2D? (<a href="code/java/arrays/matrix/Readme.md">What is?</a>)
                             </li>
                             <li>
                                 <p>Contarcuántas veces está el número (1) en una matriz (int) (<a href="code/java/arrays/matrix/countElementInMatrix.java">Count Element (Matriz 2D)</a>)</p>
