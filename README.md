@@ -1,3 +1,8 @@
+### <a href="/code/java/">JAVA</a> - <a href="/code/python/">PYTHON</a> - <a href="/files/ComingSoon.md">COMING SOON</a> - 
+
+##### YouTube: <a href="https://www.youtube.com/@Ing_SRM">inge. SRM</a> - <a href="https://www.youtube.com/@tutosrivegamerTRG">Tutos Rive Gamer</a> - <a href="https://youtube.com/@srm_tiagomarin">SRM_TiagoMarin</a>
+
+
 # Hey coder
 
 > El propósito de este repositorio es compartir con la comunidad "Open Source" código que pueda ser útil o relevante para cada quien además de aprender nuevos temas de este mundo (code), una cosa es cierta y es que mi lógica no será igual a la de ninguna otra persona, por tanto, los códigos aquí mostrados están basados en mi experiencia neta y "Autodidacta".
