@@ -2,11 +2,7 @@
 
 ## PYTHON
 
-<div style="width:10px;">
-
 <a href="/code/python/">![Python Logo](/assets/python_ico.svg "Python Logo")</a>
-
-</div>
 
 En esta sección encontrarás código PYTHON, si deseas ver archivo por archivo sos libre de <a href="/code/python/">**entrar**</a> (Es claro verdad). Vuelve a la sección principal con "**Home**".
 
