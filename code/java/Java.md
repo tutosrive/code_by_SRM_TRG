@@ -2,7 +2,13 @@
 
 ## JAVA
 
-En esta sección encontrarás código JAVA, si deseas ver archivo por archivo sos libre de entrar (Es claro verdad). Vuelve a la sección principal con "**Home**".
+En esta sección encontrarás código JAVA, si deseas ver archivo por archivo sos libre de <a href="/code/java/">**entrar**</a> (Es claro verdad). Vuelve a la sección principal con "**Home**".
+
+<div style="width:100px;">
+
+<a herf="/code/java/">![Java Logo](/assets/java_ico.svg "Java Logo")</a>
+
+</div>
 
 ```java
 //Hello World + salida con el nombre de usuario

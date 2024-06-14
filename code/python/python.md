@@ -1,9 +1,14 @@
 #####  <a href="/">Home</a> - <a href="/code/java/java.md">JAVA</a>
 
 ## PYTHON
+
+<div style="width:100px;">
+
 ![Python Logo](/assets/python_ico.svg "Python Logo")
 
-En esta sección encontrarás código PYTHON, si deseas ver archivo por archivo sos libre de entrar (Es claro verdad). Vuelve a la sección principal con "**Home**".
+</div>
+
+En esta sección encontrarás código PYTHON, si deseas ver archivo por archivo sos libre de <a href="/code/python/">**entrar**</a> (Es claro verdad). Vuelve a la sección principal con "**Home**".
 
 ```python
 #Hello World + salida con el nombre de usuario
