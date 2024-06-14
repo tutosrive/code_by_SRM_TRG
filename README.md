@@ -159,7 +159,7 @@
                 </ul>
            </li>
            <li>
-            <strong>Clases (OOP): coming Soon</strong>
+            <strong>Clases (OOP): <a href="assets/comingsoon2.webp" target="Blank">coming Soon</a></strong>
                 <ul>
                 </ul>
            </li>
