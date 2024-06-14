@@ -75,7 +75,7 @@
                         Sumar los primeros <i>n</i> números naturales (<a href="code/java/functions/sum_n_naturals.java">Suma de n naturales</a>).
                     </li>
                     <li>
-                        Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="code/python/functions/">Coming Soon</a>).
+                        Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="/files/ComingSoon.md">Coming Soon</a>).
                     </li>
                 </ul>
            </li>
@@ -116,7 +116,7 @@
                     <li>Math (java.util.Math)</li>
                     <ol>
                         <li>
-                            Operaciones matemáticas con Math (<a href="code/java/java_util/java_Math1.java">Coming Soon</a>)
+                            Operaciones matemáticas con Math (<a href="/files/ComingSoon.md">Coming Soon</a>)
                         </li>
                     </ol>
                 </ul>
@@ -159,7 +159,7 @@
                 </ul>
            </li>
            <li>
-            <strong>Clases (OOP): <a href="assets/comingsoon2.webp" target="Blank">coming Soon</a></strong>
+            <strong>Clases (OOP): <a href="/files/ComingSoon.md">coming Soon</a></strong>
                 <ul>
                 </ul>
            </li>
