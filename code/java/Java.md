@@ -6,7 +6,7 @@ En esta sección encontrarás código JAVA, si deseas ver archivo por archivo so
 
 <div style="width:100px;">
 
-<a herf="/code/java/">![Java Logo](/assets/java_ico.svg "Java Logo")</a>
+<a href="/code/java/">![Java Logo](/assets/java_ico.svg "Java Logo")</a>
 
 </div>
 

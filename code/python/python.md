@@ -4,7 +4,7 @@
 
 <div style="width:100px;">
 
-![Python Logo](/assets/python_ico.svg "Python Logo")
+<a href="/code/python/">![Python Logo](/assets/python_ico.svg "Python Logo")</a>
 
 </div>
 
