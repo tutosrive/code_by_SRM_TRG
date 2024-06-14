@@ -1,8 +1,8 @@
-#####  <a href="/">Home</a> - <a href="/code/java/java.md">JAVA</a>
+##### <a href="/">Home</a> - <a href="/code/java/java.md">JAVA</a>
 
 ## PYTHON
 
-<div style="width:100px;">
+<div style="width:10px;">
 
 <a href="/code/python/">![Python Logo](/assets/python_ico.svg "Python Logo")</a>
 
