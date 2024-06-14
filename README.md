@@ -107,10 +107,10 @@
                     <li>Scanner (java.util.Scanner)</li>
                     <ol>
                         <li>
-                            Lectura de datos por teclado en JAVA con (Scanner) (<a href="code/java/java_util/java_Scanner1.java">Lectura de datos por teclado 1</a>)
+                            Lectura de datos por teclado en JAVA con (Scanner) parte 1 (<a href="code/java/java_util/java_Scanner1.java">Scanner 1</a>)
                         </li>
                         <li>
-                            Lectura de datos por teclado en JAVA con (Scanner) (<a href="code/java/java_util/java_Scanner2.java">Coming Soon</a>)
+                            Lectura de datos por teclado en JAVA con (Scanner) parte 2 (<a href="code/java/java_util/java_Scanner2.java">Scanner 2</a>)
                         </li>
                     </ol>
                     <li>Math (java.util.Math)</li>
