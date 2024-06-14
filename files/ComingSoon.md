@@ -1,4 +1,4 @@
-### <a href="/">House</a>
+### <a href="/">Home</a>
 # Coming Soon
 
 ![Image Coming Soon](/assets/comingsoon2.webp "Coming Soon")
