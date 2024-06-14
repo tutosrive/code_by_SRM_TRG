@@ -1,4 +1,4 @@
-#####  <a href="/">Home</a> - <a href="/code/java/">JAVA</a>
+#####  <a href="/">Home</a> - <a href="/code/java/java.md">JAVA</a>
 
 ## PYTHON
 ![Python Logo](/assets/python_ico.svg "Python Logo")
