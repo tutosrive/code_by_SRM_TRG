@@ -2,7 +2,6 @@
 
 ##### YouTube: <a href="https://www.youtube.com/@Ing_SRM">inge. SRM</a> - <a href="https://www.youtube.com/@tutosrivegamerTRG">Tutos Rive Gamer</a> - <a href="https://youtube.com/@srm_tiagomarin">SRM_TiagoMarin</a>
 
-
 # Hey coder
 
 > El propósito de este repositorio es compartir con la comunidad "Open Source" código que pueda ser útil o relevante para cada quien además de aprender nuevos temas de este mundo (code), una cosa es cierta y es que mi lógica no será igual a la de ninguna otra persona, por tanto, los códigos aquí mostrados están basados en mi experiencia neta y "Autodidacta".
@@ -82,6 +81,9 @@
                     <li>
                         Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="/files/ComingSoon.md">Coming Soon</a>).
                     </li>
+                    <li>
+                        <p>Retornar matriz (int) (<a href="code/java/arrays/matrix/returnMatrix.java">Return Matrix</a>)</p>
+                    </li>
                 </ul>
            </li>
            <li>
@@ -158,16 +160,22 @@
                             <li>
                                 <p>Ordenar Matriz 2D en diferente orden (Ascendente - Descendente) (int) (<a href="code/java/arrays/matrix/order_matrix.java">Order Matriz 2D (Vector)</a>)</p>
                             </li>
+                            <li>
+                                <p>Retornar matriz (int) (<a href="code/java/arrays/matrix/returnMatrix.java">Return Matrix</a>)</p>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         <strong>ArrayList (Arreglo Unidimensional DINÁMICO):</strong>
                         <ul>
                             <li>
-                                ¿Qué es un ArrayList (Arreglo DINÁMICO)? (<a href="code/java/arrays/arrayList/Readme.md">What is?</a>)
+                                ¿Qué es un ArrayList (Arreglo DINÁMICO)? (<a href="code/java/arrays/arraylist/Readme.md">What is?</a>)
                             </li>
                             <li>
-                                <p> Uso básico de ArrayList (<a href="code/java/arrays/arrayList/arrayList1.java">Use ArrayList</a>)</p>
+                                <p> Uso básico de ArrayList (<a href="code/java/arrays/arrayList/arraylist1.java">Use ArrayList</a>)</p>
+                            </li>
+                            <li>
+                                <p> Uso básico de ArrayList 2 (<a href="code/java/arrays/arrayList/arraylist2.java">Use ArrayList 2</a>)</p>
                             </li>
                         </ul>
                     </li>

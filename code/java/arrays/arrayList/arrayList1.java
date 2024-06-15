@@ -1,8 +1,8 @@
-package code.java.arrays.arrayList;
+package code.java.arrays.arraylist;
 
 import java.util.ArrayList;
 
-public class arrayList1 {
+public class arraylist1 {
     public static void main(String[] args) {
         ArrayList<Integer> pares = new ArrayList<>();
 

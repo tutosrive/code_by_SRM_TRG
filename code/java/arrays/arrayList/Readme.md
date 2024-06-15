@@ -2,6 +2,7 @@
 
 Un **ArrayList** es similar (en cuanto al concepto) a los arreglos unidimensionales (Vectores), ya que solo se conforma de una única dimensión, es decir, así como las **Matrices 2D** tienen dos dimensiones, es decir (**filas** - **columnas**), loa **ArrayList** solo se componen de posiciones en "**filas**". La diferencia principal y más importante por la cual **ArrayList** es diferente de los **vectores**, es, que los **ArrayList** son dinámicos y **no son de tamaño estático** (los vectores son de tamaño estático, por eso al declararlos se les da un tamaño fijo **no variable/dinámico**). Es decir, en los **ArrayList** podemos agregar datos, eliminar datos, modificar datos con la posibilidad de **redimensionar** su logitud.
 
+> Revisa este <a href="/code/java/arrays/arraylist/"></a> para ver ejercicios con **ArrayList**.
 > # Ver definición de ArrayList completa (<a href="https://bioaiteamlearning.github.io/progI-2024-01-ucaldas/content/notebooks/Clase9-Java.html#3">ArrayList</a>). Revisar <a href="#créditos">créditos</a>.
 
 ## Ejemplo visual de ArrayList:
