@@ -1,4 +1,4 @@
-##### <a href="/">Home</a> - <a href="/code/java/java.md">JAVA</a>
+##### <a href="/">Home</a> - <a href="[text](../java/Java.md)">JAVA</a>
 
 ## PYTHON
 
