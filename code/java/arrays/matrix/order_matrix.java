@@ -25,7 +25,7 @@ public class order_matrix {
             System.out.println("Ingrese 'a' para ordenar 'Ascendente', 'd' para ordenar 'Descendente': ");
             orden = read.next().charAt(0);
 
-            switch (orden) {
+            switch (orden) { 
                 case 'a':
                     exit = true;
                     message = "ASCENDENTE";
