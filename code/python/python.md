@@ -1,4 +1,4 @@
-##### <a href="/">Home</a> - <a href="/blob/main/code/python/python.md">JAVA</a>
+#####  <a href="/">Home</a> - <a href="/code/java/java.md">JAVA</a>
 
 ## PYTHON
 
