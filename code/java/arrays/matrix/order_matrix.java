@@ -117,7 +117,7 @@ public class order_matrix {
                     for (int j = 0; j < matriz[0].length - 1; j++) {
                         for (int k = 0; k < matriz[0].length - 1; k++) {
                             // Verificar si posición de la izquierda menor a posición derecha
-                            if (matriz[i][k] > matriz[i][k + 1]) {
+                            if (matriz[i][k] < matriz[i][k + 1]) {
                                 // Guardar valor de la derecha para no perderse
                                 centinela = matriz[i][k + 1];
                                 // Sobreescribir posición derechacon posición izquierda (izquierda menor que
