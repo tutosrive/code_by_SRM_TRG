@@ -49,15 +49,25 @@
                 </ul>
            </li>
            <li>
-            <p>Clases (OOP):</p>
-                <ul>
-                </ul>
-           </li>
-           <li>
                 <p>Loops (Ciclos - Bucles): </p>
                 <ul>
                     <li>
                         Imprimir desde número 2 entero, hasta 0 en paso 2 (<a href="code/python/Loops/for_default.py">Desde n hasta 0 en paso 2</a>)
+                    </li>
+                </ul>
+           </li>
+           <li>
+            <p>Clases (OOP) (<a href="/files/ComingSoon.md">Coming Soon</a>):</p>
+           </li>
+           <li>
+                <p>Bases de Datos:</p>
+                <ul>
+                    <li>
+                        Sqlite3 (<a>Sqlite Module (database):</a>)
+                        <ul>
+                            <li>Conexión Básica: (<a href="/code/python/modules/sqlite3/connection.py">sqlite3.connection()</a>)</li>
+                            <li>Añadir datos (básico): (<a href="/code/python/modules/sqlite3/addData.py">sqlite3.connection().cursor().execute()</a>)</li>
+                        </ul>
                     </li>
                 </ul>
            </li>
