@@ -108,7 +108,7 @@
                 <strong>Loops (Ciclos - Bucles): </strong>
                 <ul>
                     <li>
-                        Verificar si un único número es primo o no (<a href="code/java/loops/one_numberCousin.java">Verificar si un número es primo o no</a>)
+                        Verificar si un único número es primo o no (<a href="code/java/Loops/one_numberCousin.java">Verificar si un número es primo o no</a>)
                     </li>
                     <li>
                         Buscar los números primos en un rango definido [1, 100] (<a href="code/java/loops/multiple_primeNumbers.java">Números primos en rango [1, 100]</a>)
