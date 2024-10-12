@@ -179,7 +179,7 @@
                         <strong>ArrayList (Arreglo Unidimensional DINÁMICO):</strong>
                         <ul>
                             <li>
-                                ¿Qué es un ArrayList (Arreglo DINÁMICO)? (<a href="code/java/arrays/arraylist/Readme.md">What is?</a>)
+                                ¿Qué es un ArrayList (Arreglo DINÁMICO)? (<a href="code/java/arrays/arrayList/Readme.md">What is?</a>)
                             </li>
                             <li>
                                 <p> Uso básico de ArrayList (<a href="code/java/arrays/arrayList/arrayList1.java">Use ArrayList</a>)</p>
