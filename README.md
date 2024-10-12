@@ -185,7 +185,7 @@
                                 <p> Uso básico de ArrayList (<a href="code/java/arrays/arrayList/arrayList1.java">Use ArrayList</a>)</p>
                             </li>
                             <li>
-                                <p> Uso básico de ArrayList 2 (<a href="code/java/arrays/arrayList/arrayList2.java">Use ArrayList 2</a>)</p>
+                                <p> Uso básico de ArrayList 2 (<a href="code/java/arrays/arrayList/arraylist2.java">Use ArrayList 2</a>)</p>
                             </li>
                         </ul>
                     </li>
