@@ -54,6 +54,7 @@ public class java_Scanner2 {
         System.out.println("Su peso corporal es: " + weight);
         System.out.println("Su estimado de dinero es: " + money);
 
+        System.out.println("SALIDA DE INFORMACIÓN INGRESADA POR TECLADO CON UN ÚNICO SCANNER:");
         //Alternativa 2: Un solo Scanner para todo tipo de dato, pero hacer una especie de cambio (casteo) al nuevo
         //tipo de dato que se va a usar, ejemplo, voy a leer un entero luego un texto
 
@@ -66,9 +67,6 @@ public class java_Scanner2 {
         //Hacer una especie de casteo (o intercambio de tipo de dato a leer)
         //Cambiar el Scanner para leer String - char
         read.nextLine();
-
-
-        System.out.println("SALIDA DE INFORMACIÓN INGRESADA POR TECLADO CON UN ÚNICO SCANNER:");
 
         //String
         System.out.println("Ingrese el nombre de un mes válido: ");
