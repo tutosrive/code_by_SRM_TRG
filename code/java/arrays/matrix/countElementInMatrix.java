@@ -51,8 +51,8 @@ public class countElementInMatrix {
             }
         }
 
-        // Conteo de 1's en la matriz (Salida de información)
-        System.out.println("La cantidad de 1's en la matriz es de: " + nOne);
+        // Conteo de unos (1) en la matriz (Salida de información)
+        System.out.println("La cantidad de \"unos\" en la matriz es de: " + nOne);
     }
 
     // LLenar matriz con números random entre 0 y 1 -> [0, 1]
@@ -72,7 +72,9 @@ public class countElementInMatrix {
     public static int contOne(int[][] matriz) {
         int cont = 0;
 
+        // Recorrer filas
         for (int i = 0; i < matriz.length; i++) {
+            // Recorrercolumnas
             for (int j = 0; j < matriz[0].length; j++) {
                 // Si el valor de la posición matriz[i][j] == 1, se aumenta contador de 1's en
                 // +1

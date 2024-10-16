@@ -1,3 +1,4 @@
+
 /*
     Implementar función que retorne la sumatoria 
     de los primeros números naturales hasta n
@@ -5,37 +6,36 @@
 //Importar Scanner (Entrada de datos por teclado)
 import java.util.Scanner;
 
- public class sum_n_naturals {
+public class sum_n_naturals {
 
-    //Método - Función sumar primeros n números
-    public static int sumN(int n){
-        //Variables necesarias
+    // Método - Función sumar primeros n números
+    public static int sumN(int n) {
+        // Variables necesarias
         int sum = 0;
 
-        //Ejecutar n veces
-        for (int i = 1; i <= n; i++){
-            //Por cada vuelta sumar i a variable sum
+        // Ejecutar n veces
+        for (int i = 1; i <= n; i++) {
+            // Por cada vuelta sumar i a variable sum
             sum += i;
         }
-        //Retornar valor final de la suma
+        // Retornar valor final de la suma
         return sum;
     }
 
-    //Método prinvipal archivo
+    // Método principal archivo
     public static void main(String[] args) {
-        //Variables necesarias
+        // Variables necesarias
         Scanner read = new Scanner(System.in);
         int limit = 0;
 
-        //Pedir información al usuario
+        // Pedir información al usuario
         System.out.println("Ingrese el límite entero: ");
         limit = read.nextInt();
 
-        //Cerrar Scanner
+        // Cerrar Scanner
         read.close();
 
-        //Procesar información
+        // Procesar información
         System.out.println(sumN(limit));
     }
- }
-
+}

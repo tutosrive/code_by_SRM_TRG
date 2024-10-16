@@ -1,5 +1,3 @@
-package code.java.arrays.arraylist;
-
 // Haz un programa genere n números aleatoriamente y se guarden 
 //en un arreglo (la cantidad es ingresada por teclado), después de n números, preguntar a usuario
 // Si desea agregar más números o no

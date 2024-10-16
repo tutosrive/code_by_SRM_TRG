@@ -1,5 +1,3 @@
-package code.java.arrays.arraylist;
-
 import java.util.ArrayList;
 
 public class arraylist1 {
