@@ -130,10 +130,10 @@
                             Lectura de datos por teclado en JAVA con (Scanner) parte 2 (<a href="code/java/java_util/java_Scanner2.java">Scanner 2</a>)
                         </li>
                     </ol>
-                    <li>Math (java.util.Math)</li>
+                    <li>Math (java.lang.Math)</li>
                     <ol>
                         <li>
-                            Operaciones matemáticas con Math (<a href="/code/java/java_util/java_Math1.java">Coming Soon</a>)
+                            Operaciones matemáticas con Math (<a href="/code/java/java_lang/java_Math1.java">java.lang.Math</a>)
                         </li>
                     </ol>
                 </ul>
