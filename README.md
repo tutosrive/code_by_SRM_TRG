@@ -8,12 +8,10 @@
 
 ## ¿Lenguajes de programación de este repositorio? (código)
 
-### Python
-
 <section>
     <div>
         <div style="width:200px; display: flex; margin-bottom: 23px;">
-            <image width="200" src="assets/python_ico.svg">
+            <img src="assets/python_ico.svg">
             <image width="200" src="assets/java_ico.svg">
         </div>
     </div>
@@ -23,6 +21,8 @@
 </section>
 
 ---
+
+## Python
 
 <article>
     <image width="50" src="assets/python_ico.svg"> 
@@ -76,6 +76,8 @@
 </article>
 
 ---
+
+## Java
 
 <article>
     <image width="50" src="assets/java_ico.svg"> 
