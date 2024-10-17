@@ -1,5 +1,3 @@
-package code.java.Loops.workshop;
-
 /*
     2. Escribir un programa que almacene la cadena de caracteres pass123 en una variable,
     pregunte al usuario por la contraseña hasta que introduzca la contraseña correcta.
@@ -17,7 +15,7 @@ public class password_check {
             System.out.println("Ingrese la contraseña correcta: ");
             passUser = read.nextLine();
 
-            if (!passUser.equals(password)){
+            if (!passUser.equals(password)) {
                 System.out.println("Intente nuevamente: ");
             }
         } while (!passUser.equals(password));

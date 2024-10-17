@@ -1,5 +1,3 @@
-package code.java.Loops.workshop;
-
 /*
     5. Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por
     pantalla el número de veces que aparece la letra en la frase.
@@ -22,15 +20,15 @@ public class count_letter_repeated {
 
         read.close();
 
-        for (char let: frase.toCharArray()){
-            if (letter == let){
+        for (char let : frase.toCharArray()) {
+            if (letter == let) {
                 count++;
             }
         }
 
-        if (count > 0){
-            if (count > 1){
-                System.out.println("'"+ letter + "'" + ", se repite " + count + " veces.");
+        if (count > 0) {
+            if (count > 1) {
+                System.out.println("'" + letter + "'" + ", se repite " + count + " veces.");
             } else {
                 System.out.println(letter + ", no se repite (Solo está una vez)");
             }

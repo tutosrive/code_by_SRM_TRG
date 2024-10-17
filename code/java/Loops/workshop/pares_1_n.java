@@ -1,4 +1,3 @@
-package code.java.Loops.workshop;
 
 /*
     1. Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla
@@ -17,11 +16,11 @@ public class pares_1_n {
 
         read.close();
 
-        if (number < 0){
+        if (number < 0) {
             System.out.println("No se admiten negativos.");
         } else {
-            for (int i = 2; i <= number; i++){
-                if (i % 2 != 0){
+            for (int i = 2; i <= number; i++) {
+                if (i % 2 != 0) {
                     answer += ", " + i;
                 }
             }

@@ -1,5 +1,3 @@
-package code.java.Loops;
-
 //En este ejercicio se verificarán si los números en un rango definido son o no primos
 //Extraer los números primos en el rango [1 - 100]
 
@@ -17,12 +15,13 @@ public class multiple_primeNumbers {
         System.out.print("Ingrese el límite del rango: ");
         limit = read.nextInt();
 
-        //Cerrar Scanner
+        // Cerrar Scanner
         read.close();
 
         // Recorrer números desde 2 hasta límite (1 se omite porque no es primo)
         for (int i = 2; i <= limit; i++) {
-            // Ciclo para recorrer los números desde 2 hasta 1 número antes que el número a verificar
+            // Ciclo para recorrer los números desde 2 hasta 1 número antes que el número a
+            // verificar
             for (int j = 2; j < i; j++) {
                 // Verificar por cada valor de i si number es divisible exactamente en ese valor
                 if (i % j == 0) {
@@ -34,11 +33,11 @@ public class multiple_primeNumbers {
             // Si no hay divisores, significa que es primo (se tiene en cuenta que se pasó
             // por alto el 1 y el mismo número)
             if (divisores == 0) {
-                //Imprimir valores primos
+                // Imprimir valores primos
                 System.out.println(i);
             }
 
-            //Importante reniciar el valor de los divisore, por cada iteración
+            // Importante reniciar el valor de los divisore, por cada iteración
             divisores = 0;
         }
     }

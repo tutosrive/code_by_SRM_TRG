@@ -1,5 +1,3 @@
-package code.java.Loops;
-
 /*
     El concepto de encontrar los primeros 100 números primos,
     cambia el concepto de ir en un rango definido, la condición ya no será ir hasta el límite del rango, 
@@ -7,7 +5,7 @@ package code.java.Loops;
  */
 
 public class first_100PrimeNumbers {
-    public static void main(String[] args) { 
+    public static void main(String[] args) {
         int countPrime = 1, divisores = 0;
 
         for (int i = 2; countPrime <= 100; i++) {

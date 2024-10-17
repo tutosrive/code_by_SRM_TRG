@@ -1,4 +1,3 @@
-package code.java.java_util;
 
 //Primero se importa el objeto Scanner de las utilidades de java
 import java.util.Scanner;
@@ -34,47 +33,51 @@ public class java_Scanner1 {
          * en cadenas
          * es decir, si queremos leer (f) para femenino y (m) para masculino
          * se trata de leer un string, pero en su posición 0
-         *              Posición                              0    1    2    3    4    5    6    7    8
-         * si el usuacio ingresa masculino su arreglo sería ['m', 'a', 's', 'c', 'u', 'l', 'i', 'n', 'o']
+         * Posición 0 1 2 3 4 5 6 7 8
+         * si el usuacio ingresa masculino su arreglo sería ['m', 'a', 's', 'c', 'u',
+         * 'l', 'i', 'n', 'o']
          * entonces:
-         * read.next() -> No se le indica el tipo de dato, luego indicamos la posición a leer, así:
-         * read.next().charAt(0) -> Leer la posición 0 de lo que se introduce por teclado
+         * read.next() -> No se le indica el tipo de dato, luego indicamos la posición a
+         * leer, así:
+         * read.next().charAt(0) -> Leer la posición 0 de lo que se introduce por
+         * teclado
          * 
-         * Para finalizar este comentario, el Scanner se debe ser cerrar, para evitar errores
-        */
+         * Para finalizar este comentario, el Scanner se debe ser cerrar, para evitar
+         * errores
+         */
 
-        //Ejemplos
+        // Ejemplos
 
-        //Enteros (nextInt())
+        // Enteros (nextInt())
         System.out.print("Ingrese su edad: ");
         int age = read.nextInt();
 
-        //Flotantes presición doble (nextDouble())
+        // Flotantes presición doble (nextDouble())
         System.out.print("Ingrese una aproximación de PI: ");
         double PI = read.nextDouble();
 
-        //Flotantes simples (nextFloat())
+        // Flotantes simples (nextFloat())
         System.out.print("Ingrese su peso en Kg: ");
         float pesokg = read.nextFloat();
 
-        //Long (nextLong())
+        // Long (nextLong())
         System.out.print("Ingrese cuanto cuanto es 1 billón: ");
         long billion = read.nextLong();
 
-        //Caracteres (next())
+        // Caracteres (next())
         System.out.print("Ingrese (f) para femenino ó (m) para masculino: ");
         char genre = read.next().charAt(0);
 
-        //Strings (nextLine())
+        // Strings (nextLine())
         System.out.print("Ingrese su nombre: ");
         String name = read.nextLine();
 
-
-        //Se debe cerrar el Scanner para evitar errores
+        // Se debe cerrar el Scanner para evitar errores
         read.close();
 
-        //Hay un error, de hecho hay muchas cosas que no son correctas pero parecen estar bien
-        //Revisar java_scanner2 para saber que es...
+        // Hay un error, de hecho hay muchas cosas que no son correctas pero parecen
+        // estar bien
+        // Revisar java_scanner2 para saber que es...
 
         System.out.println("\n----------------");
 

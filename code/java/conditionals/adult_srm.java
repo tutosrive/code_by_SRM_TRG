@@ -1,4 +1,3 @@
-package code.java.conditionals;
 /*
     Desarrollar un algoritmo que imprima lo siguiente:
         - Si la persona es mayor o tiene 18 años (Colombia) -> 'Eres mayor de edad.'

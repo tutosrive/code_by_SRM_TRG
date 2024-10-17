@@ -1,5 +1,3 @@
-package code.java.Loops.workshop;
-
 /*
     6. Una empresa tiene el registro de las horas que trabaja diariamente un empleado durante la
     semana (seis días) y requiere determinar el total de estas, así como el sueldo que recibirá por
