@@ -102,6 +102,9 @@
                     <li>
                         Verificar si una persona es mayor o menor de edad (<a href="code/java/conditionals/adult_srm.java">Verificar si sos mayor o menor de edad</a>)
                     </li>
+                    <li>
+                        Operador Ternario. Condicionales simples, solo se da por falso o verdadero.(<a href="code/java/conditionals/operadorTernario.java">Operador Ternario</a>)
+                    </li>
                 </ul>
            </li>
            <li>
