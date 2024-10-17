@@ -11,7 +11,7 @@
 <section>
     <div>
         <div style="width:200px; display: flex; margin-bottom: 23px;">
-            <img src="assets/python_ico.svg">
+            <img width="200" src="assets/python_ico.svg">
             <image width="200" src="assets/java_ico.svg">
         </div>
     </div>
