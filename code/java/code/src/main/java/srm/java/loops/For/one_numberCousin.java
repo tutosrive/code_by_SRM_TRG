@@ -1,4 +1,4 @@
-package srm.java.loops;
+package srm.java.loops.For;
 
 import srm.java.own.Keyboard;
 import srm.java.own.Printer;

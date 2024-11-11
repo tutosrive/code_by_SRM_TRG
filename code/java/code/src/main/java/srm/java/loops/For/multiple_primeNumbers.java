@@ -1,4 +1,4 @@
-package srm.java.loops;
+package srm.java.loops.For;
 
 //En este ejercicio se verificarán si los números en un rango definido son o no primos
 
@@ -35,7 +35,7 @@ public class multiple_primeNumbers {
             // por alto el 1 y el mismo número)
             if (divisores == 0) {
                 // Imprimir valores primos
-                Printer.warning(new String[] { "Hola" });
+                Printer.warning("Es primo: " + i);
             }
 
             // Importante reniciar el valor de los divisore, por cada iteración

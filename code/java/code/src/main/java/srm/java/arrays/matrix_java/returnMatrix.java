@@ -1,7 +1,7 @@
 package srm.java.arrays.matrix_java;
 
-import java.lang.Math;
-import java.util.Scanner;
+import srm.java.own.Keyboard;
+import srm.java.own.Printer;
 /*
     Realice un programa que devuelva una matriz de números pares aleatorios.
     Debe crear una función que reciba como argumentos las dimensiones y el rango
@@ -22,24 +22,20 @@ public class returnMatrix {
     public static void main(String[] args) {
         int pares[][];
         String res = "";
-        Scanner read = new Scanner(System.in);
         boolean exit = false;
 
         int fil = 0, col = 0, start = 0, end = 0;
 
         // Hasta que el usuario no ingrese valores mayores a cero
         do {
-            System.out.println("Ingrese la cantidad de filas de la matriz: ");
-            fil = read.nextInt();
-
-            System.out.println("Ingrese cantidad de columnas de la matriz: ");
-            col = read.nextInt();
+            fil = Keyboard.readI("Ingrese la cantidad de filas de la matriz: ");
+            col = Keyboard.readI("Ingrese cantidad de columnas de la matriz: ");
 
             // verificar si valores son mayores a cero
             if (fil > 0 && col > 0) {
                 exit = true;
             } else {
-                System.out.println("Intenta nuevamente (No se admiten cantidades menores o iguales a cero (0)): ");
+                Printer.warning("Intenta nuevamente (No se admiten cantidades menores o iguales a cero (0)): ");
             }
         } while (!exit);
 
@@ -48,22 +44,20 @@ public class returnMatrix {
 
         // Hasta que el usuario no ingrese un rango bien definido
         do {
-            System.out.println("Ingrese inicio del rango: ");
-            start = read.nextInt();
+            start = Keyboard.readI("Ingrese inicio del rango: ");
 
-            System.out.println("Ingrese final del rango: ");
-            end = read.nextInt();
+            end = Keyboard.readI("Ingrese final del rango: ");
 
             // No hay un rango inclusivo si valor mínimo a valor máximo
             if (start != end) {
                 exit = true;
             } else {
-                System.out.println("Intenta nuevamente (valor mínimo no puede ser igual a valor máximo): ");
+                Printer.warning("Intenta nuevamente (valor mínimo no puede ser igual a valor máximo): ");
             }
         } while (!exit);
 
         // Cerra Scanner
-        read.close();
+        Keyboard.closeSc();
 
         // Verificar orden en el cual se pasará valor mínimo y máximo a la función
         // El rango puede ser, [1, 100] ó [100, 1]
@@ -79,22 +73,22 @@ public class returnMatrix {
         // Guardar información de salida en (res)
         for (int i = 0; i < pares.length; i++) {
             // Añadir valores de cada fila y columna a la respeusta
-            res += "Fila " + (i + 1) + ": |";
+            res += "Fila " + (i + 1) + ": | ";
 
             // Recorrer matriz
             for (int j = 0; j < pares[0].length; j++) {
                 // Añadir valores en posición (i,j) de la matriz
-                res += pares[i][j] + ", ";
+                res += pares[i][j] + " ";
             }
 
             // Añadir retoque final a la salida de cada fila
-            res += "... |\n";
+            res += " |\n";
         }
 
-        System.out.println("\nSALIDA DE INFORMACIÓN: ");
+        Printer.warning("\nSALIDA DE INFORMACIÓN: ");
 
         // Imprimir información almacenada en (res)
-        System.out.println(res);
+        Printer.wexe(res);
     }
 
     // Generar matriz con valores pares random en rango pasado por parámetro
@@ -103,7 +97,7 @@ public class returnMatrix {
         int[][] matriz = new int[fil][col];
 
         // Declaración de variables
-        int par = 0, range = max - min + 1;
+        int par, range = max - min + 1;
         boolean exit = false;
 
         // For para recorrer longitud de filas de la matriz

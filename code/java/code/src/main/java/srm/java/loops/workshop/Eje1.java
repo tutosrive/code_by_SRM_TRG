@@ -1,34 +1,34 @@
 package srm.java.loops.workshop;
 
+import srm.java.own.Keyboard;
+import srm.java.own.Printer;
+
 /*
     1. Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla
     todos los números impares desde 1 hasta ese número separados por comas.
 */
-import java.util.Scanner;
 
-public class pares_1_n {
+public class Eje1 {
     public static void main(String[] args) {
-        Scanner read = new Scanner(System.in);
         String answer = "Impares: [1";
-        int number = 0;
+        int number;
 
-        System.out.println("Ingrese límite (Entero positivo): ");
-        number = read.nextInt();
+        number = Keyboard.readI("Ingrese límite (Entero positivo): ");
 
-        read.close();
+        Keyboard.closeSc();
 
         if (number < 0) {
-            System.out.println("No se admiten negativos.");
+            Printer.werror("No se admiten negativos.");
         } else {
             for (int i = 2; i <= number; i++) {
                 if (i % 2 != 0) {
-                    answer += ", " + i;
+                    answer += " " + i;
                 }
             }
 
             answer += "]";
 
-            System.out.println(answer);
+            Printer.wexe(answer);
         }
     }
 }

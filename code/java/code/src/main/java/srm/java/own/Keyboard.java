@@ -1,5 +1,6 @@
 package srm.java.own;
 
+import static srm.java.own.Printer.werror;
 import static srm.java.own.Printer.winfo;
 import java.util.Scanner;
 
@@ -30,7 +31,7 @@ public class Keyboard {
      */
     public static String readT(String message) {
         winfo(message);
-        String str = sc.next();
+        String str = sc.nextLine();
         return str;
     }
 
@@ -43,6 +44,27 @@ public class Keyboard {
     public static char readC(String message) {
         winfo(message);
         char letter = sc.next().charAt(0);
+        return letter;
+    }
+
+    /**
+     * Leer caracter por teclado
+     * 
+     * @param message String. Mensaje que será mostrado al usuario como información
+     * @return String. Cadena de texto "capturada" por teclado
+     */
+    public static char readC(String message, char typeLetter) {
+        winfo(message);
+        char letter = ' ';
+        switch (typeLetter) {
+            case 'm':
+                letter = sc.next().toLowerCase().charAt(0);
+                break;
+            case 'M':
+                letter = sc.next().toUpperCase().charAt(0);
+            default:
+                werror("Ingrese (m) para minúsculas y (M) para mayúsculas");
+        }
         return letter;
     }
 

@@ -23,9 +23,7 @@ public class Printer {
      * @param message String. Mensaje a imprimir por consola
      */
     public static void winfo(Object message) {
-        if (!message.equals("")) {
-            wf("%s%s%s", BLUE, message, RESET);
-        }
+        wf("%s%s%s", BLUE, message.toString(), RESET);
     }
 
     /**
@@ -36,7 +34,7 @@ public class Printer {
      */
     public static void warning(Object message) {
         try {
-            wf("%s%s%s", YELLOW, message, RESET);
+            wf("%s%s%s", YELLOW, message.toString(), RESET);
         } catch (Exception e) {
             werror(e);
         }
@@ -76,6 +74,6 @@ public class Printer {
      * @param e Exception. Excepción a imprimir
      */
     public static void werror(Object e) {
-        sout.printf("%s%s%s", RED, e, RESET);
+        sout.printf("%s%s%s%n", RED, e, RESET);
     }
 }

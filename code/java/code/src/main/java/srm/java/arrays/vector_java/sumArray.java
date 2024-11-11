@@ -1,5 +1,7 @@
 package srm.java.arrays.vector_java;
 
+import srm.java.own.Printer;
+
 //Sumar elementos de dos elementos con la misma longitud, sumar elementos de las mismas posiciones
 public class sumArray {
     public static void main(String[] args) {
@@ -8,10 +10,10 @@ public class sumArray {
         int[] array2 = { 1, 2, 3 };
 
         // Variable de suma
-        int suma = 0;
+        int suma;
 
         // Salida de información
-        System.out.println("Suma en posiciones:");
+        Printer.winfo("Suma en posiciones:");
 
         // Para arreglos de la misma longitud
         for (int i = 0; i < array1.length; i++) {
@@ -19,7 +21,7 @@ public class sumArray {
             // la posición i (0, 1, 2)
             suma = array1[i] + array2[i];
             // Imprimir por consola la suma de cada posición
-            System.out.println("La suma de posición [" + i + "]: " + suma);
+            Printer.wexe("La suma de posición [" + i + "]: " + suma);
         }
 
     }

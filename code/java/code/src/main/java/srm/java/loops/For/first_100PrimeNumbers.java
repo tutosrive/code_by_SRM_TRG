@@ -1,9 +1,11 @@
-package srm.java.loops;
+package srm.java.loops.For;
 /*
     El concepto de encontrar los primeros 100 números primos,
     cambia el concepto de ir en un rango definido, la condición ya no será ir hasta el límite del rango, 
     la condición de salida es encontrar 100 primos, no importa el rango
  */
+
+import srm.java.own.Printer;
 
 public class first_100PrimeNumbers {
     public static void main(String[] args) {
@@ -16,6 +18,7 @@ public class first_100PrimeNumbers {
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
                     // Aumentar en 1 los divisores
+                    Printer.wexe("Es divisor de (" + i + "): " + j);
                     divisores++;
                 }
             }
@@ -24,7 +27,7 @@ public class first_100PrimeNumbers {
             // por alto el 1 y el mismo número)
             if (divisores == 0) {
                 // Imprimimos el número primo encontrado
-                System.out.println(i);
+                Printer.winfo(i);
                 // Se aumenta en 1 a 1 el cuantos números primos se han encontrado hasta llegar
                 // a 100
                 countPrime++;

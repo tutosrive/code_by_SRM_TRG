@@ -1,5 +1,7 @@
 package srm.java.arrays.vector_java;
 
+import srm.java.own.Printer;
+
 public class fillArray {
     public static void main(String[] args) {
         int[] temperaturas = new int[20];
@@ -14,7 +16,7 @@ public class fillArray {
 
         // Imprimir por consola los temperaturas agregadas
         for (int n : temperaturas) {
-            System.out.println(n);
+            Printer.wexe(n);
         }
     }
 }

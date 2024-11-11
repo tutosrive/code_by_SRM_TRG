@@ -4,8 +4,10 @@ package srm.java.functions;
     Implementar función que retorne la sumatoria 
     de los primeros números naturales hasta n
  */
-//Importar Scanner (Entrada de datos por teclado)
-import java.util.Scanner;
+
+// Estas son clases que me facilitan el uso de lectura y escritura por consola
+import srm.java.own.Keyboard;
+import srm.java.own.Printer;
 
 public class sum_n_naturals {
 
@@ -26,17 +28,15 @@ public class sum_n_naturals {
     // Método principal archivo
     public static void main(String[] args) {
         // Variables necesarias
-        Scanner read = new Scanner(System.in);
-        int limit = 0;
+        int limit;
 
         // Pedir información al usuario
-        System.out.println("Ingrese el límite entero: ");
-        limit = read.nextInt();
+        limit = Keyboard.readI("Ingrese el límite (número entero/natural): ");
 
         // Cerrar Scanner
-        read.close();
+        Keyboard.closeSc();
 
         // Procesar información
-        System.out.println(sumN(limit));
+        Printer.wexe("Suma = " + sumN(limit));
     }
 }
