@@ -1,12 +1,12 @@
 {
   "java.project.sourcePaths": [
-    "./code/java/arrays",
-    "./code/java/arrays/arrayList",
-    "./code/java/arrays/matrix_java",
-    "./code/java/arrays/vector_java",
-    "./code/java/loops",
-    "./code/java/loops/workshop/",
-    "./code/java/own"
+    "./code/java/code/src/main/java/srm/java/arrays",
+    "./code/java/code/src/main/java/srm/java/arrays/arrayList",
+    "./code/java/code/src/main/java/srm/java/arrays/matrix_java",
+    "./code/java/code/src/main/java/srm/java/arrays/vector_java",
+    "./code/java/code/src/main/java/srm/java/loops",
+    "./code/java/code/src/main/java/srm/java/loops/workshop/",
+    "./code/java/code/src/main/java/srm/java/own"
   ],
   "java.project.referencedLibraries": [],
   "[java]": {

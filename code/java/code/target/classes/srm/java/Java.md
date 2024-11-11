@@ -2,11 +2,11 @@
 
 ## JAVA
 
-En esta sección encontrarás código JAVA, si deseas ver archivo por archivo sos libre de <a href="/code/java/">**entrar**</a> (Es claro verdad). Vuelve a la sección principal con "**Home**".
+En esta sección encontrarás código JAVA, si deseas ver archivo por archivo sos libre de <a href="/code/java/code/src/main/java/srm/java/">**entrar**</a> (Es claro verdad). Vuelve a la sección principal con "**Home**".
 
 <div style="width:100px;">
 
-<a href="/code/java/">![Java Logo](/assets/java_ico.svg "Java Logo")</a>
+<a href="/code/java/code/src/main/java/srm/java/">![Java Logo](/assets/java_ico.svg "Java Logo")</a>
 
 </div>
 
