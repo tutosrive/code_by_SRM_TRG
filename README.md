@@ -157,13 +157,13 @@
                         ¿Qué es un arreglo (Array)? (<a href="./code/java/code/src/main/java/srm/java/arrays/Readme.md">What is?</a>)
                         </li>
                         <li>
-                            <p>Llenar un arreglo (unidimensional) con valores (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector/fillArray.java">Fill Array (Vector)</a>)</p>
+                            <p>Llenar un arreglo (unidimensional) con valores (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector_java/fillArray.java">Fill Array (Vector)</a>)</p>
                         </li>
                         <li>
-                            <p>Obtener valores de un arreglo (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector/getElementsArray.java">Get Element (Vector)</a>)</p>
+                            <p>Obtener valores de un arreglo (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector_java/getElementsArray.java">Get Element (Vector)</a>)</p>
                         </li>
                         <li>
-                            <p>Sumar los elementos (en las mismas posiciones) de dos (2) arreglos (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector/sumArray.java">Sum 2 arrays (Vector)</a>)</p>
+                            <p>Sumar los elementos (en las mismas posiciones) de dos (2) arreglos (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector_java/sumArray.java">Sum 2 arrays (Vector)</a>)</p>
                         </li>
                     </ul>
                     <li>
