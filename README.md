@@ -112,7 +112,7 @@
            <li>
                 <strong>Loops (Ciclos - Bucles): </strong>
                 <ul>
-                    <li>For - Normal:</li>
+                    <li><strong>For - Normal:</strong></li>
                     <ul>
                         <li>
                             Verificar si un único número es primo o no (<a href="./code/java/code/src/main/java/srm/java/loops/For/one_numberCousin.java">Verificar si un número es primo o no</a>)
@@ -122,6 +122,18 @@
                         </li>
                         <li>
                             Buscar los primeros 100 números primos sin tener un rango definido (<a href="./code/java/code/src/main/java/srm/java/loops/For/first_100PrimeNumbers.java">Encontrar primeros 100 primos</a>)
+                        </li>
+                    </ul>
+                    <li><strong>ForEach:</strong></li>
+                    <ul>
+                        <li>
+                            <a href="./files/ComingSoon.md">Coming Soon</a>
+                        </li>
+                    </ul>
+                    <li><strong>do{...}while{...}:</strong></li>
+                    <ul>
+                        <li>
+                            Pedir contraseña a usuario hasta que ingrese la correcta. (<a href="./code/java/code/src/main/java/srm/java/loops/DoWhile/Example1.java">Verificar contraseña</a>)
                         </li>
                     </ul>
                 </ul>
