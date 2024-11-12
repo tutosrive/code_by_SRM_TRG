@@ -160,23 +160,23 @@
                             <p>Obtener valores de un arreglo (int) (<a href="code/java/code/src/main/java/srm/java/arrays/vector/getElementsArray.java">Get Element (Vector)</a>)</p>
                         </li>
                         <li>
-                            <p>Sumar los elementos (en las mismas posiciones) de dos (2) arreglos (int) (<a href="code/java/code/src/main/java/srm/java/arrays/vector/sumArray.java">Sum 2 arrays (Vector)</a>)</p>
+                            <p>Sumar los elementos (en las mismas posiciones) de dos (2) arreglos (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector/sumArray.java">Sum 2 arrays (Vector)</a>)</p>
                         </li>
                     </ul>
                     <li>
                         <strong>Matriz 2D (Array 2D, Matriz):</strong>
                         <ul>
                             <li>
-                                ¿Qué es un Matriz 2D? (<a href="code/java/code/src/main/java/srm/java/arrays/matrix/Readme.md">What is?</a>)
+                                ¿Qué es un Matriz 2D? (<a href="./code/java/code/src/main/java/srm/java/arrays/matrix_java/Readme.md">What is?</a>)
                             </li>
                             <li>
-                                <p>Contar cuántas veces está el número (1) en una matriz (int) (<a href="code/java/code/src/main/java/srm/java/arrays/matrix/countElementInMatrix.java">Count Element (Matriz 2D)</a>)</p>
+                                <p>Contar cuántas veces está el número (1) en una matriz (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/matrix_java/countElementInMatrix.java">Count Element (Matriz 2D)</a>)</p>
                             </li>
                             <li>
-                                <p>Ordenar Matriz 2D en diferente orden (Ascendente - Descendente) (int) (<a href="code/java/code/src/main/java/srm/java/arrays/matrix/order_matrix.java">Order Matriz 2D (Vector)</a>)</p>
+                                <p>Ordenar Matriz 2D en diferente orden (Ascendente - Descendente) (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/matrix_java/order_matrix.java">Order Matriz 2D (Vector)</a>)</p>
                             </li>
                             <li>
-                                <p>Retornar matriz (int) (<a href="code/java/code/src/main/java/srm/java/arrays/matrix/returnMatrix.java">Return Matrix</a>)</p>
+                                <p>Retornar matriz (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/matrix_java/returnMatrix.java">Return Matrix</a>)</p>
                             </li>
                         </ul>
                     </li>
@@ -184,13 +184,13 @@
                         <strong>ArrayList (Arreglo Unidimensional DINÁMICO):</strong>
                         <ul>
                             <li>
-                                ¿Qué es un ArrayList (Arreglo DINÁMICO)? (<a href="code/java/code/src/main/java/srm/java/arrays/arrayList/Readme.md">What is?</a>)
+                                ¿Qué es un ArrayList (Arreglo DINÁMICO)? (<a href="./code/java/code/src/main/java/srm/java/arrays/arrayList/Readme.md">What is?</a>)
                             </li>
                             <li>
-                                <p> Uso básico de ArrayList (<a href="code/java/code/src/main/java/srm/java/arrays/arrayList/arrayList1.java">Use ArrayList</a>)</p>
+                                <p> Uso básico de ArrayList (<a href="./code/java/code/src/main/java/srm/java/arrays/arrayList/arrayList1.java">Use ArrayList</a>)</p>
                             </li>
                             <li>
-                                <p> Uso básico de ArrayList 2 (<a href="code/java/code/src/main/java/srm/java/arrays/arrayList/arraylist2.java">Use ArrayList 2</a>)</p>
+                                <p> Uso básico de ArrayList 2 (<a href="./code/java/code/src/main/java/srm/java/arrays/arrayList/arraylist2.java">Use ArrayList 2</a>)</p>
                             </li>
                         </ul>
                     </li>
@@ -198,7 +198,7 @@
                 </ul>
            </li>
            <li>
-            <strong>Clases (OOP): <a href="/files/ComingSoon.md">coming Soon</a></strong>
+            <strong>Clases (OOP): <a href="./files/ComingSoon.md">coming Soon</a></strong>
                 <ul>
                 </ul>
            </li>
