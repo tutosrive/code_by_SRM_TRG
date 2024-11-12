@@ -94,7 +94,7 @@
                         Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="/files/ComingSoon.md">Coming Soon</a>).
                     </li>
                     <li>
-                        <p>Retornar matriz (int) (<a href="code/java/code/src/main/java/srm/java/arrays/matrix/returnMatrix.java">Return Matrix</a>)</p>
+                        <p>Retornar matriz (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/matrix_java/returnMatrix.java">Return Matrix</a>)</p>
                     </li>
                 </ul>
            </li>
