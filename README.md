@@ -130,7 +130,7 @@
                             <a href="./files/ComingSoon.md">Coming Soon</a>
                         </li>
                     </ul>
-                    <li><strong>do{...}while{...}:</strong></li>
+                    <li><strong>[do{...}while(condición de salida):](./code/java/code/src/main/java/srm/java/loops/DoWhile)</strong></li>
                     <ul>
                         <li>
                             Pedir contraseña a usuario hasta que ingrese la correcta. (<a href="./code/java/code/src/main/java/srm/java/loops/DoWhile/Example1.java">Verificar contraseña</a>)
