@@ -12,7 +12,6 @@ public class sum_n_naturals {
 
     // Método - Función sumar primeros n números
     public static int sumN(int n) {
-        Scanner read = new Scanner(System.in);
         // Variables necesarias
         int sum = 0;
 
@@ -25,11 +24,13 @@ public class sum_n_naturals {
         return sum;
     }
 
-    // Método principal archivo
+   // Método principal archivo
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         // Variables necesarias
         int limit;
 
+        System.out.println("Ingrese el límite (número entero/natural): ");
         // Pedir información al usuario
         System.out.println("Ingrese el límite (número entero/natural): ");
         limit = read.nextInt();
