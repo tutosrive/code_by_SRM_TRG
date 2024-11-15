@@ -20,7 +20,8 @@ public class order_matrix {
 
         do {
             // Pedir información al usuario
-            orden = read.next("Ingrese 'a' para ordenar 'Ascendente', 'd' para ordenar 'Descendente': ").charAt(0);
+            System.out.println("Ingrese 'a' para ordenar 'Ascendente', 'd' para ordenar 'Descendente': ");
+            orden = read.next().charAt(0);
 
             switch (orden) {
                 case 'a':

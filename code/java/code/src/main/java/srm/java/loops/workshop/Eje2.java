@@ -14,7 +14,8 @@ public class Eje2 {
         String password = "pass123", passUser;
 
         do {
-            passUser = read.nextLine("Ingrese la contraseña correcta: ");
+            System.out.println("Ingrese la contraseña correcta: ");
+            passUser = read.nextLine();
 
             if (!passUser.equals(password)) {
                 System.out.println("Intente nuevamente: ");

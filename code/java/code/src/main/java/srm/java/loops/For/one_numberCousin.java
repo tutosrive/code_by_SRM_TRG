@@ -17,7 +17,8 @@ public class one_numberCousin {
         int number, divisores = 0;
 
         // Ingresar el número a verificar si es primo
-        number = read.nextInt("Ingrese un número a verificar si es primo: ");
+        System.out.println("Ingrese un número a verificar si es primo: ");
+        number = read.nextInt();
 
         // Cerrar Scanner
         read.close();

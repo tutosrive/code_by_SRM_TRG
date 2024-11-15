@@ -19,7 +19,8 @@ public class arraylist2 {
         do {
             // Preguntar al usuario la cantidad de números a agregar
             // Almacenar la cantidad de números a agregar
-            n = read.nextInt("¿Cuántos números desea agregar?: ");
+            Sytem.out.println("¿Cuántos números desea agregar?: ");
+            n = read.nextInt();
 
             // Generar n números aleatorios
             for (int i = 1; i <= n; i++) {
@@ -28,7 +29,8 @@ public class arraylist2 {
                 numbers.add(number);
             }
 
-            opcion = read.nextInt("¿Deseas agregar más números? (0 = No / 1 = Sí): ");
+            System.out.println("¿Deseas agregar más números? (0 = No / 1 = Sí): ");
+            opcion = read.nextInt();
 
             switch (opcion) {
                 case 0:

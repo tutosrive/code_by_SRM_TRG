@@ -14,7 +14,8 @@ public class Eje4 {
         int lenWord;
         char letter;
 
-        word = read.nextLine("Ingrese una palabra: ");
+        System.out.println("Ingrese una palabra: ");
+        word = read.nextLine();
 
         read.close();
 

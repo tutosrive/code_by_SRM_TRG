@@ -17,12 +17,14 @@ public class Eje5 {
         // Contador de letras incializado en 0
         int count = 0;
 
+        System.out.println("Ingrese una frase: ");
         // Se pide al usuario una frase y se lee por teclado
-        frase = read.nextLine("Ingrese una frase: ").toLowerCase(); // Frase en minúscula
+        frase = read.nextLine().toLowerCase(); // Frase en minúscula
 
         // Se pide al usuario una letra y se lee por teclado
         // Leer en índice 0, y letra en minúscula
-        letter = read.next("Ingrese una letra ").toLowerCase().charAt(0);
+        System.out.println("Ingrese una letra: ");
+        letter = read.next().toLowerCase().charAt(0);
 
         read.close();
 

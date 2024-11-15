@@ -31,7 +31,8 @@ public class sum_n_naturals {
         int limit;
 
         // Pedir información al usuario
-        limit = read.nextInt("Ingrese el límite (número entero/natural): ");
+        System.out.println("Ingrese el límite (número entero/natural): ");
+        limit = read.nextInt();
 
         // Cerrar Scanner
         read.close();

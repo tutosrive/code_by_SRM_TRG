@@ -14,7 +14,8 @@ public class multiple_primeNumbers {
         int limit, divisores = 0;
 
         // Pedir datos al usuario
-        limit = read.nextInt("Ingrese el límite del rango: ");
+        System.out.println("Ingrese el límite del rango: ");
+        limit = read.nextInt();
 
         // Cerrar Scanner
         read.close();

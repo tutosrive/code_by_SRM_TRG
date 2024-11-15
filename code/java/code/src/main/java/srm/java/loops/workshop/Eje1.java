@@ -13,7 +13,8 @@ public class Eje1 {
         String answer = "Impares: [1";
         int number;
 
-        number = read.nextInt("Ingrese límite (Entero positivo): ");
+        System.out.println("Ingrese límite (Entero positivo): ");
+        number = read.nextInt();
 
         read.close();
 

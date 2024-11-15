@@ -17,7 +17,8 @@ public class Eje9 {
         // Ejecutar primero y luego verificar la condición de salida
         do {
             // Leer y almacenar nota ingresada
-            nota = read.nextFloat("Ingrese una nota: ");
+            System.out.println("Ingrese una nota: ");
+            nota = read.nextFloat();
             // Se toma en cuenta un sistema de notas de 0 a 5 (-1 es laopción de salida)
             if (nota < -1 || nota > 5) {
                 System.out.println("No se permiten notas menores a 0 ni mayores a 5. Si desea salir, ingrese -1.");

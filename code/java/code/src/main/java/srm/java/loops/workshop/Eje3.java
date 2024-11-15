@@ -15,7 +15,8 @@ public class Eje3 {
         int number, divisores = 0;
 
         // Solicitar un número al usuario y leerlo
-        number = read.nextInt("Ingrese número a evaluar: ");
+        System.out.println("Ingrese número a evaluar: ");
+        number = read.nextInt();
 
         // Cerrar Scanner
         read.close();

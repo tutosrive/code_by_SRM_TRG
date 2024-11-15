@@ -19,7 +19,8 @@ public class adult_srm {
 
         // Pedir información al usuraio
         // Lectura de datos por teclado (es el Leer del pseudocódigo - pseint)
-        age = read.nextInt("Ingrese su edad: ");
+        System.out.println("Ingrese su edad: ");
+        age = read.nextInt();
 
         // Cerrar el Scanner (ya no permite ingresar más información)
         read.close();

@@ -17,11 +17,13 @@ public class Eje6 {
         System.out.println("A continuación, podrá ingresar la información requerida de una semana.");
 
         for (int i = 1; i <= 7; i++) {
-            horas = read.nextFloat("Ingrese horas trabajadas día " + i + ": ");
+            System.out.println("Ingrese horas trabajadas día " + i + ": ");
+            horas = read.nextFloat();
 
             totalH += horas;
 
-            hourCost = read.nextFloat("Ingrese valor por hora (v/g): ");
+            System.out.println("Ingrese valor por hora (v/g): ");
+            hourCost = read.nextFloat();
 
             salaryWorker += horas * hourCost;
         }

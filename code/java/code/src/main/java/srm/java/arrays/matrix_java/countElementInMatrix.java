@@ -19,8 +19,10 @@ public class countElementInMatrix {
 
         // Do-While para verificar filas o columnas menores o iguales a cero (0)
         do {
-            fil = read.nextInt("Ingrese cantidad de filas: ");
-            col = read.nextInt("Ingrese cantidad de columnas: ");
+            System.out.println("Ingrese cantidad de filas: ");
+            fil = read.nextInt();
+            System.out.println("Ingrese cantidad de columnas: ");
+            col = read.nextInt();
 
             if (fil <= 0 || col <= 0) {
                 System.out.println("No se permiten valores negativos o iguales a cero. Intente nuevamente: ");

@@ -30,8 +30,10 @@ public class returnMatrix {
 
         // Hasta que el usuario no ingrese valores mayores a cero
         do {
-            fil = read.nextInt("Ingrese la cantidad de filas de la matriz: ");
-            col = read.nextInt("Ingrese cantidad de columnas de la matriz: ");
+            System.out.println("Ingrese la cantidad de filas de la matriz: ");
+            fil = read.nextInt();
+            System.out.println("Ingrese la cantidad de columnas de la matriz: ");
+            col = read.nextInt();
 
             // verificar si valores son mayores a cero
             if (fil > 0 && col > 0) {
@@ -46,9 +48,11 @@ public class returnMatrix {
 
         // Hasta que el usuario no ingrese un rango bien definido
         do {
-            start = read.nextInt("Ingrese inicio del rango: ");
+            System.out.println("Ingrese inicio del rango: ");
+            start = read.nextInt();
 
-            end = read.nextInt("Ingrese final del rango: ");
+            System.out.println("Ingrese final del rango: ");
+            end = read.nextInt();
 
             // No hay un rango inclusivo si valor mínimo a valor máximo
             if (start != end) {

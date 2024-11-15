@@ -17,7 +17,8 @@ public class Example1 {
 
         // Ejecutar bloque al menos una vez
         do {
-            passUser = read.nextLine("Ingrese la contraseña: ");
+            System.out.println("Ingrese la contraseña: ");
+            passUser = read.nextLine();
 
             // Verificar si la contraseña ingresada es igual a la contraseña requerida
             if (passOriginal.equals(passUser)) {
