@@ -5,30 +5,30 @@ package srm.java.loops.workshop;
     las horas trabajadas, solicite la información de las horas de cada dia y valor hora por teclado.
  */
 
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 public class Eje6 {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
 
         float horas, hourCost, totalH = 0.0f;
         double salaryWorker = 0;
 
-        Printer.winfo("A continuación, podrá ingresar la información requerida de una semana.");
+        System.out.println("A continuación, podrá ingresar la información requerida de una semana.");
 
         for (int i = 1; i <= 7; i++) {
-            horas = Keyboard.readF("Ingrese horas trabajadas día " + i + ": ");
+            horas = read.nextFloat("Ingrese horas trabajadas día " + i + ": ");
 
             totalH += horas;
 
-            hourCost = Keyboard.readF("Ingrese valor por hora (v/g): ");
+            hourCost = read.nextFloat("Ingrese valor por hora (v/g): ");
 
             salaryWorker += horas * hourCost;
         }
 
-        Keyboard.closeSc();
+        read.close();
 
-        Printer.wexe("Horas Trabajadas: " + totalH + "\nSalario Final: " + salaryWorker);
+        System.out.println("Horas Trabajadas: " + totalH + "\nSalario Final: " + salaryWorker);
 
     }
 }

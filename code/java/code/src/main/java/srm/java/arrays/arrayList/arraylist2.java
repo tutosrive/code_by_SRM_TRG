@@ -6,11 +6,11 @@ package srm.java.arrays.arrayList;
 
 import java.util.ArrayList;
 
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 public class arraylist2 {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         ArrayList<Integer> numbers = new ArrayList<>();
         boolean exit = false;
         int n, number, opcion, cont = 1;
@@ -19,7 +19,7 @@ public class arraylist2 {
         do {
             // Preguntar al usuario la cantidad de números a agregar
             // Almacenar la cantidad de números a agregar
-            n = Keyboard.readI("¿Cuántos números desea agregar?: ");
+            n = read.nextInt("¿Cuántos números desea agregar?: ");
 
             // Generar n números aleatorios
             for (int i = 1; i <= n; i++) {
@@ -28,7 +28,7 @@ public class arraylist2 {
                 numbers.add(number);
             }
 
-            opcion = Keyboard.readI("¿Deseas agregar más números? (0 = No / 1 = Sí): ");
+            opcion = read.nextInt("¿Deseas agregar más números? (0 = No / 1 = Sí): ");
 
             switch (opcion) {
                 case 0:
@@ -37,20 +37,20 @@ public class arraylist2 {
                 case 1:
                     exit = false;
                 default:
-                    Printer.werror("Opción no válida: ");
+                    System.out.println("Opción no válida: ");
                     break;
             }
 
-            Printer.wexe("\n-------\nArreglo versión " + cont + ": " + numbers);
-            Printer.winfo("El tamaño del arreglo es: " + numbers.size() + "\n-------");
+            System.out.println("\n-------\nArreglo versión " + cont + ": " + numbers);
+            System.out.println("El tamaño del arreglo es: " + numbers.size() + "\n-------");
             cont++;
         } while (!exit);
 
         // Cerrar Scanenr
-        Keyboard.closeSc();
+        read.close();
 
         // Imprimir arreglo final
-        Printer.wexe("El arreglo final es: " + numbers);
-        Printer.winfo("El tamaño del arreglo es: " + numbers.size());
+        System.out.println("El arreglo final es: " + numbers);
+        System.out.println("El tamaño del arreglo es: " + numbers.size());
     }
 }

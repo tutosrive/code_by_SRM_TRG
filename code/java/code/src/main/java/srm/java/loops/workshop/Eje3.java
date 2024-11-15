@@ -5,20 +5,20 @@ package srm.java.loops.workshop;
     número primo o no.
  */
 
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 public class Eje3 {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
 
         // Contadores (primos, divisores)
         int number, divisores = 0;
 
         // Solicitar un número al usuario y leerlo
-        number = Keyboard.readI("Ingrese número a evaluar: ");
+        number = read.nextInt("Ingrese número a evaluar: ");
 
         // Cerrar Scanner
-        Keyboard.closeSc();
+        read.close();
 
         // Verificar los divisores desde 2 hasta el número - 1
         // Se omite el 1 porque todo número es divisible por 1 y por sí mismo
@@ -32,11 +32,11 @@ public class Eje3 {
 
         // Si la cantidad de divisores es igual a cero, significa que SÍ es primo
         if (divisores == 0) {
-            Printer.wexe(number + " SÍ es primo!");
+            System.out.println(number + " SÍ es primo!");
         }
         // Si la cantidad de divisores es mayor a cero, significa que NO es primo
         else {
-            Printer.wexe(number + " NO es primo!");
+            System.out.println(number + " NO es primo!");
         }
     }
 }

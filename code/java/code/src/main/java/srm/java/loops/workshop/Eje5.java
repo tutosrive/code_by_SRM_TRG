@@ -1,7 +1,6 @@
 package srm.java.loops.workshop;
 
-import srm.java.own.Printer;
-import srm.java.own.Keyboard;
+import java.util.Scanner;
 
 /*
     5. Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por
@@ -10,6 +9,7 @@ import srm.java.own.Keyboard;
 
 public class Eje5 {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         // Variable donde se almacenará la frase
         String frase;
         // Variable donde se almacenará la letra a buscar
@@ -18,13 +18,13 @@ public class Eje5 {
         int count = 0;
 
         // Se pide al usuario una frase y se lee por teclado
-        frase = Keyboard.readT("Ingrese una frase: ").toLowerCase(); // Frase en minúscula
+        frase = read.nextLine("Ingrese una frase: ").toLowerCase(); // Frase en minúscula
 
         // Se pide al usuario una letra y se lee por teclado
         // Leer en índice 0, y letra en minúscula
-        letter = Keyboard.readC("Ingrese una letra ", 'm');
+        letter = read.next("Ingrese una letra ").toLowerCase().charAt(0);
 
-        Keyboard.closeSc();
+        read.close();
 
         // Recordar que el String, es un arreglo de "char" y puede ser convertido a un
         // array por tanto
@@ -41,16 +41,16 @@ public class Eje5 {
         if (count > 0) {
             // Si se repite más de una vez
             if (count > 1) {
-                Printer.wexe("La letra " + letter + ", se repite " + count + " veces");
+                System.out.println("La letra " + letter + ", se repite " + count + " veces");
             }
             // SI se repite sólo una vez
             else {
-                Printer.wexe("La letra" + letter + " se repite una única vez.");
+                System.out.println("La letra" + letter + " se repite una única vez.");
             }
         }
         // En el caso que la letra buscada por el usuario no está en la frase
         else {
-            Printer.winfo("No se encontró la letra " + letter + ", en " + frase);
+            System.out.println("No se encontró la letra " + letter + ", en " + frase);
         }
     }
 }

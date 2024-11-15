@@ -18,7 +18,7 @@ public class first_100PrimeNumbers {
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
                     // Aumentar en 1 los divisores
-                    Printer.wexe("Es divisor de (" + i + "): " + j);
+                    System.out.println("Es divisor de (" + i + "): " + j);
                     divisores++;
                 }
             }
@@ -27,7 +27,7 @@ public class first_100PrimeNumbers {
             // por alto el 1 y el mismo número)
             if (divisores == 0) {
                 // Imprimimos el número primo encontrado
-                Printer.winfo(i);
+                System.out.println(i);
                 // Se aumenta en 1 a 1 el cuantos números primos se han encontrado hasta llegar
                 // a 100
                 countPrime++;

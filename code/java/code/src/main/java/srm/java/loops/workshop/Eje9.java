@@ -17,11 +17,11 @@ public class Eje9 {
         // Ejecutar primero y luego verificar la condición de salida
         do {
             // Leer y almacenar nota ingresada
-            nota = Keyboard.readF("Ingrese una nota: ");
+            nota = read.nextFloat("Ingrese una nota: ");
             // Se toma en cuenta un sistema de notas de 0 a 5 (-1 es laopción de salida)
             if (nota < -1 || nota > 5) {
-                Printer.werror("No se permiten notas menores a 0 ni mayores a 5. Si desea salir, ingrese -1.");
-                Printer.warning("Intente nuevamente: ");
+                System.out.println("No se permiten notas menores a 0 ni mayores a 5. Si desea salir, ingrese -1.");
+                System.out.println("Intente nuevamente: ");
             }
 
             // Siempre que la nota ingresada sea mayor a la opción de salida (-1)
@@ -38,6 +38,6 @@ public class Eje9 {
         // Calcular el promedio
         promedio = promedio / cantidadNotas;
         // Mostrar el promedio por consola
-        Printer.wexe("Promedio de notas: " + promedio);
+        System.out.println("Promedio de notas: " + promedio);
     }
 }

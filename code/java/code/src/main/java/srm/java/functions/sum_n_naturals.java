@@ -6,13 +6,13 @@ package srm.java.functions;
  */
 
 // Estas son clases que me facilitan el uso de lectura y escritura por consola
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 public class sum_n_naturals {
 
     // Método - Función sumar primeros n números
     public static int sumN(int n) {
+        Scanner read = new Scanner(System.in);
         // Variables necesarias
         int sum = 0;
 
@@ -31,12 +31,12 @@ public class sum_n_naturals {
         int limit;
 
         // Pedir información al usuario
-        limit = Keyboard.readI("Ingrese el límite (número entero/natural): ");
+        limit = read.nextInt("Ingrese el límite (número entero/natural): ");
 
         // Cerrar Scanner
-        Keyboard.closeSc();
+        read.close();
 
         // Procesar información
-        Printer.wexe("Suma = " + sumN(limit));
+        System.out.println("Suma = " + sumN(limit));
     }
 }

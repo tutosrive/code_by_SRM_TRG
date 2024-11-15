@@ -14,17 +14,17 @@ public class Example1 {
         boolean correctPass = false;
 
         do {
-            passUser = Keyboard.readT("Ingrese la contraseña: ");
+            passUser = read.nextLine("Ingrese la contraseña: ");
 
             if (passOriginal.equals(passUser)) {
                 correctPass = true;
             } else {
-                Printer.werror("¡Contraseña incorrecta!");
-                Printer.warning("Intente nuevamente: ");
+                System.out.println("¡Contraseña incorrecta!");
+                System.out.println("Intente nuevamente: ");
             }
         } while (!correctPass);
 
-        Printer.winfo("¡Bienvenido al sistema!");
-        Printer.warning("Loading...");
+        System.out.println("¡Bienvenido al sistema!");
+        System.out.println("Loading...");
     }
 }

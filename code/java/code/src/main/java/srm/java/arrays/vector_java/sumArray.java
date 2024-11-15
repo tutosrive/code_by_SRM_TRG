@@ -13,7 +13,7 @@ public class sumArray {
         int suma;
 
         // Salida de información
-        Printer.winfo("Suma en posiciones:");
+        System.out.println("Suma en posiciones:");
 
         // Para arreglos de la misma longitud
         for (int i = 0; i < array1.length; i++) {
@@ -21,7 +21,7 @@ public class sumArray {
             // la posición i (0, 1, 2)
             suma = array1[i] + array2[i];
             // Imprimir por consola la suma de cada posición
-            Printer.wexe("La suma de posición [" + i + "]: " + suma);
+            System.out.println("La suma de posición [" + i + "]: " + suma);
         }
 
     }

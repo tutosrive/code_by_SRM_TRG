@@ -1,7 +1,6 @@
 package srm.java.loops.workshop;
 
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 /*
     1. Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla
@@ -10,15 +9,16 @@ import srm.java.own.Printer;
 
 public class Eje1 {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         String answer = "Impares: [1";
         int number;
 
-        number = Keyboard.readI("Ingrese límite (Entero positivo): ");
+        number = read.nextInt("Ingrese límite (Entero positivo): ");
 
-        Keyboard.closeSc();
+        read.close();
 
         if (number < 0) {
-            Printer.werror("No se admiten negativos.");
+            System.out.println("No se admiten negativos.");
         } else {
             for (int i = 2; i <= number; i++) {
                 if (i % 2 != 0) {
@@ -28,7 +28,7 @@ public class Eje1 {
 
             answer += "]";
 
-            Printer.wexe(answer);
+            System.out.println(answer);
         }
     }
 }

@@ -13,14 +13,14 @@ public class getElementsArray {
 
         // Obtener los elementos del array mediante índices
         for (int i = 0; i < temperaturas.length; i++) {
-            Printer.wexe("Elemento en índice (" + i + "): " + temperaturas[i]);
+            System.out.println("Elemento en índice (" + i + "): " + temperaturas[i]);
         }
 
-        Printer.warning("\n------------------------\n");
+        System.out.println("\n------------------------\n");
         // Obtener elementos directamente
         // For Each
         for (int element : temperaturas) {
-            Printer.winfo("Elemento: " + element);
+            System.out.println("Elemento: " + element);
         }
     }
 }

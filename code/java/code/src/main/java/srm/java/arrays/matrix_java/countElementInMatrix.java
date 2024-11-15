@@ -7,11 +7,11 @@ package srm.java.arrays.matrix_java;
 */
 
 //Importar librerías
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 public class countElementInMatrix {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         // Inicialización de varibles
         int fil = 0, col = 0, amountOne;
         boolean exit = false;
@@ -19,18 +19,18 @@ public class countElementInMatrix {
 
         // Do-While para verificar filas o columnas menores o iguales a cero (0)
         do {
-            fil = Keyboard.readI("Ingrese cantidad de filas: ");
-            col = Keyboard.readI("Ingrese cantidad de columnas: ");
+            fil = read.nextInt("Ingrese cantidad de filas: ");
+            col = read.nextInt("Ingrese cantidad de columnas: ");
 
             if (fil <= 0 || col <= 0) {
-                Printer.warning("No se permiten valores negativos o iguales a cero. Intente nuevamente: ");
+                System.out.println("No se permiten valores negativos o iguales a cero. Intente nuevamente: ");
             } else {
                 exit = true;
             }
 
         } while (!exit);
 
-        Keyboard.closeSc();
+        read.close();
 
         // Dar tamaño a la matriz (filas - columnas)
         matriz = new int[fil][col];
@@ -42,12 +42,12 @@ public class countElementInMatrix {
         // Información sobre los valores de cada posición de la matriz
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[0].length; j++) {
-                Printer.wexe("Valor de posición [" + i + "][" + j + "]: " + matriz[i][j]);
+                System.out.println("Valor de posición [" + i + "][" + j + "]: " + matriz[i][j]);
             }
         }
 
         // Conteo de unos (1) en la matriz (Salida de información)
-        Printer.winfo("La cantidad de \"unos\" en la matriz es de: " + amountOne);
+        System.out.println("La cantidad de \"unos\" en la matriz es de: " + amountOne);
     }
 
     // LLenar matriz con números random entre 0 y 1 -> [0, 1]
@@ -57,7 +57,7 @@ public class countElementInMatrix {
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[0].length; j++) {
                 randomN = (int) (Math.random() * 2);
-                Printer.warning("Número random [0,1]: " + randomN);
+                System.out.println("Número random [0,1]: " + randomN);
                 matriz[i][j] = randomN;
             }
         }

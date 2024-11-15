@@ -1,7 +1,6 @@
 package srm.java.loops.For;
 
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 //Verificar si un sólo número es primo
 
@@ -13,14 +12,15 @@ import srm.java.own.Printer;
  */
 public class one_numberCousin {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         // Número a verificar
         int number, divisores = 0;
 
         // Ingresar el número a verificar si es primo
-        number = Keyboard.readI("Ingrese un número a verificar si es primo: ");
+        number = read.nextInt("Ingrese un número a verificar si es primo: ");
 
         // Cerrar Scanner
-        Keyboard.closeSc();
+        read.close();
 
         // Ciclo para recorrer los números desde 2 hasta 1 número antes que el número a
         // verificar
@@ -39,9 +39,9 @@ public class one_numberCousin {
         // Si no hay divisores, significa que es primo (se tiene en cuenta que se pasó
         // por alto el 1 y el mismo número)
         if (divisores == 0) {
-            Printer.wexe(number + " SÍ es primo.");
+            System.out.println(number + " SÍ es primo.");
         } else {
-            Printer.wexe(number + " NO es primo.");
+            System.out.println(number + " NO es primo.");
         }
     }
 }

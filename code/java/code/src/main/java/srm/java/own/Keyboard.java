@@ -1,7 +1,7 @@
 package srm.java.own;
 
-import static srm.java.own.Printer.werror;
-import static srm.java.own.Printer.winfo;
+import static srm.java.own.System.out.println;
+import static srm.java.own.System.out.println;
 import java.util.Scanner;
 
 public class Keyboard {

@@ -9,7 +9,7 @@ public class java_Math1 {
          * en la mayoría de casos es necesario hacer casteos al dato requerido
          */
 
-        Printer.warning("\nPotencias de números: \n");
+        System.out.println("\nPotencias de números: \n");
         /*
          * 
          * Math.pow(double a, double b) => "a" "elevado" a la "b"
@@ -19,7 +19,7 @@ public class java_Math1 {
         // Casteo a entero a = base, b = exponente
         int a = 12, b = 2;
         int doceCuadrado = (int) Math.pow(a, b);
-        Printer.wexe("12² = " + doceCuadrado);
+        System.out.println("12² = " + doceCuadrado);
 
         // Elevar arreglo de números al "cubo"
         int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 90, 567, 345, 5657 };
@@ -32,16 +32,16 @@ public class java_Math1 {
             int nCubo = (int) Math.pow(a, b);
 
             // salida de información
-            Printer.wexe(n + "³ = " + nCubo);
+            System.out.println(n + "³ = " + nCubo);
         }
 
         /* ------------------------------------------ */
 
-        Printer.warning("\nRaíz cuadrada: \n");
+        System.out.println("\nRaíz cuadrada: \n");
         // Math.sqrt(double a) => Raíz Cuadrada de "a"
         a = 25;
         int raizCuadrada25 = (int) Math.sqrt(a);
-        Printer.winfo("Raíz Cuadrada de (" + a + ") = " + raizCuadrada25);
+        System.out.println("Raíz Cuadrada de (" + a + ") = " + raizCuadrada25);
 
         // Raízcuadrada de arreglo de números
         int[] numerosA = { 1, 121, 3, 12, 45, 67, 90, 98, 87, 100, 43, 21, 88, 99, 666, 55, 777, 999 };
@@ -69,7 +69,7 @@ public class java_Math1 {
             String raiz = (condicionRaiz) ? String.valueOf((int) raizCuadradaN) : "No existe";
 
             // Se imprime por consola la información
-            Printer.wexe("Raíz Cuadrada de (" + a + ") = " + raiz);
+            System.out.println("Raíz Cuadrada de (" + a + ") = " + raiz);
         }
     }
 }

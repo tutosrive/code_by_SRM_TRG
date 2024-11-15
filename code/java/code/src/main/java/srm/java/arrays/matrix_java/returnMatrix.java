@@ -16,10 +16,12 @@ import srm.java.own.Printer;
     rango. Pista.
     Puede ser útil el ciclo do-while.
 */
+import java.util.Scanner;
 
 public class returnMatrix {
 
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         int pares[][];
         String res = "";
         boolean exit = false;
@@ -28,14 +30,14 @@ public class returnMatrix {
 
         // Hasta que el usuario no ingrese valores mayores a cero
         do {
-            fil = Keyboard.readI("Ingrese la cantidad de filas de la matriz: ");
-            col = Keyboard.readI("Ingrese cantidad de columnas de la matriz: ");
+            fil = read.nextInt("Ingrese la cantidad de filas de la matriz: ");
+            col = read.nextInt("Ingrese cantidad de columnas de la matriz: ");
 
             // verificar si valores son mayores a cero
             if (fil > 0 && col > 0) {
                 exit = true;
             } else {
-                Printer.warning("Intenta nuevamente (No se admiten cantidades menores o iguales a cero (0)): ");
+                System.out.println("Intenta nuevamente (No se admiten cantidades menores o iguales a cero (0)): ");
             }
         } while (!exit);
 
@@ -44,20 +46,20 @@ public class returnMatrix {
 
         // Hasta que el usuario no ingrese un rango bien definido
         do {
-            start = Keyboard.readI("Ingrese inicio del rango: ");
+            start = read.nextInt("Ingrese inicio del rango: ");
 
-            end = Keyboard.readI("Ingrese final del rango: ");
+            end = read.nextInt("Ingrese final del rango: ");
 
             // No hay un rango inclusivo si valor mínimo a valor máximo
             if (start != end) {
                 exit = true;
             } else {
-                Printer.warning("Intenta nuevamente (valor mínimo no puede ser igual a valor máximo): ");
+                System.out.println("Intenta nuevamente (valor mínimo no puede ser igual a valor máximo): ");
             }
         } while (!exit);
 
         // Cerra Scanner
-        Keyboard.closeSc();
+        read.close();
 
         // Verificar orden en el cual se pasará valor mínimo y máximo a la función
         // El rango puede ser, [1, 100] ó [100, 1]
@@ -85,10 +87,10 @@ public class returnMatrix {
             res += " |\n";
         }
 
-        Printer.warning("\nSALIDA DE INFORMACIÓN: ");
+        System.out.println("\nSALIDA DE INFORMACIÓN: ");
 
         // Imprimir información almacenada en (res)
-        Printer.wexe(res);
+        System.out.println(res);
     }
 
     // Generar matriz con valores pares random en rango pasado por parámetro

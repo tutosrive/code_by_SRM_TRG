@@ -1,7 +1,6 @@
 package srm.java.loops.workshop;
 
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 /*
     2. Escribir un programa que almacene la cadena de caracteres pass123 en una variable,
@@ -11,19 +10,20 @@ import srm.java.own.Printer;
 
 public class Eje2 {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         String password = "pass123", passUser;
 
         do {
-            passUser = Keyboard.readT("Ingrese la contraseña correcta: ");
+            passUser = read.nextLine("Ingrese la contraseña correcta: ");
 
             if (!passUser.equals(password)) {
-                Printer.warning("Intente nuevamente: ");
+                System.out.println("Intente nuevamente: ");
             }
         } while (!passUser.equals(password));
 
-        Keyboard.closeSc();
+        read.close();
 
-        Printer.winfo("Bienvenido usuario.\nLoading...");
+        System.out.println("Bienvenido usuario.\nLoading...");
 
     }
 }

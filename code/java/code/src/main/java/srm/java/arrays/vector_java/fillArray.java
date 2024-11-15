@@ -16,7 +16,7 @@ public class fillArray {
 
         // Imprimir por consola los temperaturas agregadas
         for (int n : temperaturas) {
-            Printer.wexe(n);
+            System.out.println(n);
         }
     }
 }

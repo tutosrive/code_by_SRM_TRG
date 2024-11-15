@@ -1,7 +1,6 @@
 package srm.java.arrays.matrix_java;
 
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 public class order_matrix {
 
@@ -12,6 +11,7 @@ public class order_matrix {
      */
 
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         double[][] matriz = new double[200][10];
 
         char orden;
@@ -20,7 +20,7 @@ public class order_matrix {
 
         do {
             // Pedir información al usuario
-            orden = Keyboard.readC("Ingrese 'a' para ordenar 'Ascendente', 'd' para ordenar 'Descendente': ");
+            orden = read.next("Ingrese 'a' para ordenar 'Ascendente', 'd' para ordenar 'Descendente': ").charAt(0);
 
             switch (orden) {
                 case 'a':
@@ -33,40 +33,40 @@ public class order_matrix {
                     break;
 
                 default:
-                    Printer.werror(
+                    System.out.println(
                             "Ingresa un sólo carácter (a -> Ascendente / 'd' -> Descente). Intenta nuevamente: ");
                     break;
             }
         } while (!exit);
 
         // Cerrar Scanenr
-        Keyboard.closeSc();
+        read.close();
 
         // Llenar matriz con números decimales (coma flotante) aleatorios
         fillMatriz(matriz);
 
         // Salida de información relevante (Conocer valores dados en posiciones (filas -
         // columnas) sin ordenar)
-        Printer.winfo("VALORES ORIGINALES (SIN ORDENAR):");
+        System.out.println("VALORES ORIGINALES (SIN ORDENAR):");
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[0].length; j++) {
-                Printer.wexe("Valor de posición [" + i + "][" + j + "]: " + matriz[i][j]);
+                System.out.println("Valor de posición [" + i + "][" + j + "]: " + matriz[i][j]);
             }
         }
 
         // Salida de información y llamado a la función que ordena la matriz
-        Printer.winfo("Matriz ordenada de forma " + message + ": ");
+        System.out.println("Matriz ordenada de forma " + message + ": ");
         ordenarMatriz(orden, matriz);
 
         // Salida de información (Matriz ordenada, imprime cada valor en posición filas
         // - columnas)
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[0].length; j++) {
-                Printer.wexe("Valor de posición [" + i + "][" + j + "]: " + matriz[i][j]);
+                System.out.println("Valor de posición [" + i + "][" + j + "]: " + matriz[i][j]);
             }
         }
 
-        Printer.warning("ELEMENTOS DE MATRIZ ");
+        System.out.println("ELEMENTOS DE MATRIZ ");
         // Imprimir elementos y promedio
         printElements(matriz);
     }
@@ -128,7 +128,7 @@ public class order_matrix {
                 }
                 break;
             default:
-                Printer.werror("¡Opción no válida!");
+                System.out.println("¡Opción no válida!");
                 break;
         }
         // Ascendente
@@ -149,8 +149,8 @@ public class order_matrix {
 
         promedio = suma / matriz.length;
 
-        Printer.wexe(res);
-        Printer.warning("PROMEDIO ES: " + promedio);
+        System.out.println(res);
+        System.out.println("PROMEDIO ES: " + promedio);
     }
 
 }

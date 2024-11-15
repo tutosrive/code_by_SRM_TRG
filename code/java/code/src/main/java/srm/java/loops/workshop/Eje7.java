@@ -14,11 +14,11 @@ public class Eje7 {
 
         for (int i = 1; i <= plazo; i++) {
             // Salida de información, de cuanto debe pagar por mes
-            Printer.wexe("Mes " + i + " paga: " + pago + "€");
+            System.out.println("Mes " + i + " paga: " + pago + "€");
             // Se adiciona al total lacantidad de cada pago
             total += pago;
             pago *= 2; // Se duplica el valor del pago
         }
-        Printer.winfo("Total a pagar: " + total + "€");
+        System.out.println("Total a pagar: " + total + "€");
     }
 }

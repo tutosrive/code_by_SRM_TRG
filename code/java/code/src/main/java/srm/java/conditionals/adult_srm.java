@@ -9,34 +9,34 @@ package srm.java.conditionals;
     Como nota adicional porfavor comente o imprima el valor que toma un (else)
 */
 
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 public class adult_srm {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         // Definición de varibales
         int age;
 
         // Pedir información al usuraio
         // Lectura de datos por teclado (es el Leer del pseudocódigo - pseint)
-        age = Keyboard.readI("Ingrese su edad: ");
+        age = read.nextInt("Ingrese su edad: ");
 
         // Cerrar el Scanner (ya no permite ingresar más información)
-        Keyboard.closeSc();
+        read.close();
 
         // Filtro edades negativas o demasiado grandes
         if (age <= 0 || age > 118) {
-            Printer.werror("Edad errónea.");
+            System.out.println("Edad errónea.");
 
             // El valor que toma este else es (age > 0 and age < 120)
         } else {
             // Edad mayor ó igual a 18
             if (age >= 18) {
-                Printer.wexe("Eres mayor de edad.");
+                System.out.println("Eres mayor de edad.");
 
                 // El valor que toma este else es (age < 18)
             } else {
-                Printer.wexe("Eres menor de edad.");
+                System.out.println("Eres menor de edad.");
             }
         }
     }

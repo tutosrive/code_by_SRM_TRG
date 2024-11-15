@@ -15,13 +15,13 @@ public class arraylist1 {
         pares.add(8);
         pares.add(10);
 
-        Printer.wexe("ARREGLO INICIAL: ");
+        System.out.println("ARREGLO INICIAL: ");
 
         // imprimir arreglo directamente
-        Printer.winfo(pares);
+        System.out.println(pares);
 
         // ¿Cuál es la longitud/tamaño del arreglo?
-        Printer.warning("Longitud/Tamaño arreglo: " + pares.size());
+        System.out.println("Longitud/Tamaño arreglo: " + pares.size());
 
         // Posiciones: (1, 2, 3, 4, 5)
         // Ahora arreglo es igual a: {2, 4, 6, 8, 10}
@@ -43,12 +43,12 @@ public class arraylist1 {
         // Ahora arreglo es igual a: {2, 12, 8, 10}
         // Índices: (0, 1, 2, 3)
 
-        Printer.wexe("ARREGLO FINAL: ");
+        System.out.println("ARREGLO FINAL: ");
 
         // imprimir arreglo directamente
-        Printer.winfo(pares);
+        System.out.println(pares);
 
         // ¿Cuál es la longitud/tamaño del arreglo?
-        Printer.warning("Longitud/Tamaño arreglo: " + pares.size());
+        System.out.println("Longitud/Tamaño arreglo: " + pares.size());
     }
 }

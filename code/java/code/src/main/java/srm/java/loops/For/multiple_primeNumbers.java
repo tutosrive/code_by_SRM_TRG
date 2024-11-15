@@ -4,20 +4,20 @@ package srm.java.loops.For;
 
 //Extraer los números primos en el rango [1 - 100]
 
-import srm.java.own.Keyboard;
-import srm.java.own.Printer;
+import java.util.Scanner;
 
 public class multiple_primeNumbers {
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
 
         // Definición de variables
         int limit, divisores = 0;
 
         // Pedir datos al usuario
-        limit = Keyboard.readI("Ingrese el límite del rango: ");
+        limit = read.nextInt("Ingrese el límite del rango: ");
 
         // Cerrar Scanner
-        Keyboard.closeSc();
+        read.close();
 
         // Recorrer números desde 2 hasta límite (1 se omite porque no es primo)
         for (int i = 2; i <= limit; i++) {
@@ -35,7 +35,7 @@ public class multiple_primeNumbers {
             // por alto el 1 y el mismo número)
             if (divisores == 0) {
                 // Imprimir valores primos
-                Printer.warning("Es primo: " + i);
+                System.out.println("Es primo: " + i);
             }
 
             // Importante reniciar el valor de los divisore, por cada iteración
