@@ -1,4 +1,4 @@
-### <a href="/code/java/code/src/main/java/srm/java/Java.md">JAVA</a> - <a href="/code/python/python.md">PYTHON</a> - <a href="/files/ComingSoon.md" >COMING SOON</a>
+### <a href="./code/java/code/src/main/java/srm/java/Java.md">JAVA</a> - <a href="./code/python/python.md">PYTHON</a> - <a href="/files/ComingSoon.md" >COMING SOON</a>
 
 ##### YouTube: <a href="https://www.youtube.com/@Ing_SRM">inge. SRM</a> - <a href="https://www.youtube.com/@tutosrivegamerTRG">Tutos Rive Gamer</a> - <a href="https://youtube.com/@srm_tiagomarin">SRM_TiagoMarin</a>
 
@@ -33,10 +33,10 @@
                 <p>Funciones:</p>
                 <ul>
                     <li>
-                        Sumar los primeros <i>n</i> números naturales (<a href="code/python/functions/sum_n_first_int_srm.py">Suma de n naturales</a>).
+                        Sumar los primeros <i>n</i> números naturales (<a href="./code/python/functions/sum_n_first_int_srm.py">Suma de n naturales</a>).
                     </li>
                     <li> 
-                        Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="code/python/functions/fibonacci_srm.py">Secuencia FIbonacci</a>).
+                        Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="./code/python/functions/fibonacci_srm.py">Secuencia FIbonacci</a>).
                     </li>
                 </ul>
            </li>
@@ -44,7 +44,7 @@
                 <p>Condicionales: </p>
                 <ul>
                     <li>
-                        Verificar si una persona es mayor o menor de edad (<a href="code/python/conditionals/adult_true_false_srm.py">Verificar si sos mayor o menor de edad</a>)
+                        Verificar si una persona es mayor o menor de edad (<a href="./code/python/conditionals/adult_true_false_srm.py">Verificar si sos mayor o menor de edad</a>)
                     </li>
                 </ul>
            </li>
@@ -52,12 +52,12 @@
                 <p>Loops (Ciclos - Bucles): </p>
                 <ul>
                     <li>
-                        Imprimir desde número 2 entero, hasta 0 en paso 2 (<a href="code/python/Loops/for_default.py">Desde n hasta 0 en paso 2</a>)
+                        Imprimir desde número 2 entero, hasta 0 en paso 2 (<a href="./code/python/Loops/for_default.py">Desde n hasta 0 en paso 2</a>)
                     </li>
                 </ul>
            </li>
            <li>
-            <p>Clases (OOP) (<a href="/files/ComingSoon.md">Coming Soon</a>):</p>
+            <p>Clases (OOP) (<a href="./files/ComingSoon.md">Coming Soon</a>):</p>
            </li>
            <li>
                 <p>Bases de Datos:</p>
@@ -65,8 +65,8 @@
                     <li>
                         Sqlite3 (<a>Sqlite Module (database):</a>)
                         <ul>
-                            <li>Conexión Básica: (<a href="/code/python/modules/sqlite3/connection.py">sqlite3.connection()</a>)</li>
-                            <li>Añadir datos (básico): (<a href="/code/python/modules/sqlite3/addData.py">sqlite3.connection().cursor().execute()</a>)</li>
+                            <li>Conexión Básica: (<a href="./code/python/modules/sqlite3/connection.py">sqlite3.connection()</a>)</li>
+                            <li>Añadir datos (básico): (<a href="./code/python/modules/sqlite3/addData.py">sqlite3.connection().cursor().execute()</a>)</li>
                         </ul>
                     </li>
                 </ul>
@@ -88,10 +88,10 @@
                 <strong>Funciones:</strong>
                 <ul>
                     <li>
-                        Sumar los primeros <i>n</i> números naturales (<a href="code/java/code/src/main/java/srm/java/functions/sum_n_naturals.java">Suma de n naturales</a>).
+                        Sumar los primeros <i>n</i> números naturales (<a href="./code/java/code/src/main/java/srm/java/functions/sum_n_naturals.java">Suma de n naturales</a>).
                     </li>
                     <li>
-                        Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="/files/ComingSoon.md">Coming Soon</a>).
+                        Imprimir resultado <strong>Secuencia Fibonacci</strong> hasta entero n (<a href="./files/ComingSoon.md">Coming Soon</a>).
                     </li>
                     <li>
                         <p>Retornar matriz (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/matrix_java/returnMatrix.java">Return Matrix</a>)</p>
@@ -102,25 +102,40 @@
                 <strong>Condicionales: </strong>
                 <ul>
                     <li>
-                        Verificar si una persona es mayor o menor de edad (<a href="code/java/code/src/main/java/srm/java/conditionals/adult_srm.java">Verificar si sos mayor o menor de edad</a>)
+                        Verificar si una persona es mayor o menor de edad (<a href="./code/java/code/src/main/java/srm/java/conditionals/adult_srm.java">Verificar si sos mayor o menor de edad</a>)
                     </li>
                     <li>
-                        Operador Ternario. Condicionales simples, solo se da por falso o verdadero.(<a href="code/java/code/src/main/java/srm/java/conditionals/operadorTernario.java">Operador Ternario</a>)
+                        Operador Ternario. Condicionales simples, solo se da por falso o verdadero.(<a href="./code/java/code/src/main/java/srm/java/conditionals/operadorTernario.java">Operador Ternario</a>)
                     </li>
                 </ul>
            </li>
            <li>
                 <strong>Loops (Ciclos - Bucles): </strong>
                 <ul>
-                    <li>
-                        Verificar si un único número es primo o no (<a href="code/java/code/src/main/java/srm/java/loops/one_numberCousin.java">Verificar si un número es primo o no</a>)
-                    </li>
-                    <li>
-                        Buscar los números primos en un rango definido [1, 100] (<a href="code/java/code/src/main/java/srm/java/loops/multiple_primeNumbers.java">Números primos en rango [1, 100]</a>)
-                    </li>
-                    <li>
-                        Buscar los primeros 100 números primos sin tener un rango definido (<a href="code/java/code/src/main/java/srm/java/loops/first_100PrimeNumbers.java">Encontrar primeros 100 primos</a>)
-                    </li>
+                    <li><strong>For - Normal:</strong></li>
+                    <ul>
+                        <li>
+                            Verificar si un único número es primo o no (<a href="./code/java/code/src/main/java/srm/java/loops/For/one_numberCousin.java">Verificar si un número es primo o no</a>)
+                        </li>
+                        <li>
+                            Buscar los números primos en un rango definido [1, 100] (<a href="./code/java/code/src/main/java/srm/java/loops/For/multiple_primeNumbers.java">Números primos en rango [1, 100]</a>)
+                        </li>
+                        <li>
+                            Buscar los primeros 100 números primos sin tener un rango definido (<a href="./code/java/code/src/main/java/srm/java/loops/For/first_100PrimeNumbers.java">Encontrar primeros 100 primos</a>)
+                        </li>
+                    </ul>
+                    <li><strong>ForEach:</strong></li>
+                    <ul>
+                        <li>
+                            <a href="./files/ComingSoon.md">Coming Soon</a>
+                        </li>
+                    </ul>
+                    <li><strong><a href="./code/java/code/src/main/java/srm/java/loops/DoWhile">do{...}while(condición de salida</a></strong></li>
+                    <ul>
+                        <li>
+                            Pedir contraseña a usuario hasta que ingrese la correcta. (<a href="./code/java/code/src/main/java/srm/java/loops/DoWhile/Example1.java">Verificar contraseña</a>)
+                        </li>
+                    </ul>
                 </ul>
            </li>
            <li>
@@ -129,16 +144,16 @@
                     <li>Scanner (java.util.Scanner)</li>
                     <ol>
                         <li>
-                            Lectura de datos por teclado en JAVA con (Scanner) parte 1 (<a href="code/java/code/src/main/java/srm/java/java_util/java_Scanner1.java">Scanner 1</a>)
+                            Lectura de datos por teclado en JAVA con (Scanner) parte 1 (<a href="./code/java/code/src/main/java/srm/java/java_util/java_Scanner1.java">Scanner 1</a>)
                         </li>
                         <li>
-                            Lectura de datos por teclado en JAVA con (Scanner) parte 2 (<a href="code/java/code/src/main/java/srm/java/java_util/java_Scanner2.java">Scanner 2</a>)
+                            Lectura de datos por teclado en JAVA con (Scanner) parte 2 (<a href="./code/java/code/src/main/java/srm/java/java_util/java_Scanner2.java">Scanner 2</a>)
                         </li>
                     </ol>
                     <li>Math (java.lang.Math)</li>
                     <ol>
                         <li>
-                            Operaciones matemáticas con Math (<a href="/code/java/code/src/main/java/srm/java/java_lang/java_Math1.java">java.lang.Math</a>)
+                            Operaciones matemáticas con Math (<a href="./code/java/code/src/main/java/srm/java/java_lang/java_Math1.java">java.lang.Math</a>)
                         </li>
                     </ol>
                 </ul>
@@ -151,16 +166,16 @@
                     </li>
                     <ul>
                         <li>
-                        ¿Qué es un arreglo (Array)? (<a href="code/java/code/src/main/java/srm/java/arrays/Readme.md">What is?</a>)
+                        ¿Qué es un arreglo (Array)? (<a href="./code/java/code/src/main/java/srm/java/arrays/Readme.md">What is?</a>)
                         </li>
                         <li>
-                            <p>Llenar un arreglo (unidimensional) con valores (int) (<a href="code/java/code/src/main/java/srm/java/arrays/vector/fillArray.java">Fill Array (Vector)</a>)</p>
+                            <p>Llenar un arreglo (unidimensional) con valores (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector_java/fillArray.java">Fill Array (Vector)</a>)</p>
                         </li>
                         <li>
-                            <p>Obtener valores de un arreglo (int) (<a href="code/java/code/src/main/java/srm/java/arrays/vector/getElementsArray.java">Get Element (Vector)</a>)</p>
+                            <p>Obtener valores de un arreglo (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector_java/getElementsArray.java">Get Element (Vector)</a>)</p>
                         </li>
                         <li>
-                            <p>Sumar los elementos (en las mismas posiciones) de dos (2) arreglos (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector/sumArray.java">Sum 2 arrays (Vector)</a>)</p>
+                            <p>Sumar los elementos (en las mismas posiciones) de dos (2) arreglos (int) (<a href="./code/java/code/src/main/java/srm/java/arrays/vector_java/sumArray.java">Sum 2 arrays (Vector)</a>)</p>
                         </li>
                     </ul>
                     <li>
@@ -187,7 +202,7 @@
                                 ¿Qué es un ArrayList (Arreglo DINÁMICO)? (<a href="./code/java/code/src/main/java/srm/java/arrays/arrayList/Readme.md">What is?</a>)
                             </li>
                             <li>
-                                <p> Uso básico de ArrayList (<a href="./code/java/code/src/main/java/srm/java/arrays/arrayList/arrayList1.java">Use ArrayList</a>)</p>
+                                <p> Uso básico de ArrayList (<a href="./code/java/code/src/main/java/srm/java/arrays/arrayList/arraylist1.java">Use ArrayList</a>)</p>
                             </li>
                             <li>
                                 <p> Uso básico de ArrayList 2 (<a href="./code/java/code/src/main/java/srm/java/arrays/arrayList/arraylist2.java">Use ArrayList 2</a>)</p>
