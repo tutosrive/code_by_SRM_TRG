@@ -12,7 +12,6 @@ public class sum_n_naturals {
 
     // Método - Función sumar primeros n números
     public static int sumN(int n) {
-        Scanner read = new Scanner(System.in);
         // Variables necesarias
         int sum = 0;
 
@@ -27,6 +26,7 @@ public class sum_n_naturals {
 
     // Método principal archivo
     public static void main(String[] args) {
+        Scanner read = new Scanner(System.in);
         // Variables necesarias
         int limit;
 
