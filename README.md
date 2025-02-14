@@ -1,6 +1,6 @@
 ### <a href="./code/java/code/src/main/java/srm/java/Java.md">JAVA</a> - <a href="./code/python/python.md">PYTHON</a> - <a href="/files/ComingSoon.md" >COMING SOON</a>
 
-##### YouTube: <a href="https://www.youtube.com/@Ing_SRM">inge. SRM</a> - <a href="https://www.youtube.com/@tutosrivegamerTRG">Tutos Rive Gamer</a> - <a href="https://youtube.com/@srm_tiagomarin">SRM_TiagoMarin</a>
+##### YouTube: <a href="https://www.youtube.com/@Ing_SRM">inge. SRM</a> - <a href="https://www.youtube.com/@tutosrive">Tutos Rive</a> - <a href="https://youtube.com/@srm_tiagomarin">SRM_TiagoMarin</a>
 
 # Hey coder
 
